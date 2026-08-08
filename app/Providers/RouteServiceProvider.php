@@ -17,7 +17,25 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
+    public const HOME = '/categories';
+
+    /**
+     * Redirect dinamis berdasarkan role user saat login.
+     */
+    public static function redirectTo()
+    {
+        $role = str_replace(' ', '_', strtolower(trim(auth()->user()?->role ?? '')));
+
+        if ($role === 'admin') {
+            return '/categories'; // Admin ke Manajemen Kategori
+        } elseif ($role === 'manajer_gudang') {
+            return '/products'; // Manajer Gudang ke Manajemen Produk
+        } elseif ($role === 'staff_gudang') {
+            return '/stock-transactions'; // Staff Gudang ke Transaksi Stok
+        }
+
+        return '/categories'; // Default fallback
+    }
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.

@@ -168,36 +168,40 @@
                 Toggle dark mode
                 <div class="tooltip-arrow" data-popper-arrow></div>
             </div>
-            <!-- Profile -->
+            <!-- Profile Dropdown -->
             <div class="flex items-center ml-3">
               <div>
                 <button type="button" class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button-2" aria-expanded="false" data-dropdown-toggle="dropdown-2">
                   <span class="sr-only">Open user menu</span>
-                  <img class="w-8 h-8 rounded-full" src="https://flowbite.com/docs/images/people/profile-picture-5.jpg" alt="user photo">
+                  <div class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">
+                    {{ strtoupper(substr(auth()->user()->name ?? 'U', 0, 1)) }}
+                  </div>
                 </button>
               </div>
               <!-- Dropdown menu -->
               <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-2">
                 <div class="px-4 py-3" role="none">
-                  <p class="text-sm text-gray-900 dark:text-white" role="none">
-                    Neil Sims
+                  <p class="text-sm font-semibold text-gray-900 dark:text-white" role="none">
+                    {{ auth()->user()->name ?? 'Pengguna' }}
                   </p>
-                  <p class="text-sm font-medium text-gray-900 truncate dark:text-gray-300" role="none">
-                    neil.sims@flowbite.com
+                  <p class="text-sm text-gray-500 truncate dark:text-gray-300" role="none">
+                    {{ auth()->user()->email ?? '' }}
                   </p>
+                  <span class="inline-block px-2 py-0.5 mt-1 text-[11px] font-semibold rounded bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300">
+                    {{ auth()->user()->role ?? 'User' }}
+                  </span>
                 </div>
                 <ul class="py-1" role="none">
                   <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Dashboard</a>
+                    <a href="{{ route('profile.edit') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Profil Saya</a>
                   </li>
                   <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Settings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Earnings</a>
-                  </li>
-                  <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">Sign out</a>
+                    <form method="POST" action="{{ route('logout') }}">
+                      @csrf
+                      <button type="submit" class="w-full text-left block px-4 py-2 text-sm text-red-600 hover:bg-gray-100 dark:text-red-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                        Keluar (Logout)
+                      </button>
+                    </form>
                   </li>
                 </ul>
               </div>

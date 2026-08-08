@@ -7,7 +7,7 @@
     $whiteBg = isset($params['white_bg']) && $params['white_bg'];
   @endphp
 
-<body class="{{ $whiteBg ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800' }}">
+<body class="{{ $whiteBg ? 'bg-white' : 'bg-gray-50' }}">
 
   @yield('main')
   @include('example.layouts.partials.scripts')
