@@ -18,7 +18,7 @@ return new class extends Migration
             $table->enum('type', ['Masuk', 'Keluar']);
             $table->integer('quantity');
             $table->date('date');
-            $table->enum('status', ['Pending', 'Completed', 'Cancelled'])->default('Completed');
+            $table->string('status', 50)->default('Completed');
             $table->text('notes')->nullable();
             $table->timestamps();
         });

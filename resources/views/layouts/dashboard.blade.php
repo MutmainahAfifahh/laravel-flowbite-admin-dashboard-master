@@ -53,17 +53,24 @@
 @php
     $whiteBg = isset($params['white_bg']) && $params['white_bg'];
 @endphp
-<body class="{{ $whiteBg ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800' }}">
+
+{{-- Body menggunakan dark:bg-gray-800 dan dark:text-white --}}
+<body class="{{ $whiteBg ? 'bg-white text-gray-900 dark:bg-gray-800 dark:text-white' : 'bg-gray-50 text-gray-900 dark:bg-gray-800 dark:text-white' }}">
     <x-navbar-dashboard/>
-    <div class="flex pt-16 overflow-hidden bg-gray-50 dark:bg-gray-900">
+    
+    {{-- Disamakan background-nya menjadi dark:bg-gray-800 --}}
+    <div class="flex pt-16 overflow-hidden bg-gray-50 dark:bg-gray-800">
         <x-sidebar.admin-sidebar/>
-        <div id="main-content" class="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-900">
-            <main>
+        
+        {{-- Main content disamakan background-nya menjadi dark:bg-gray-800 --}}
+        <div id="main-content" class="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64 dark:bg-gray-800 min-h-screen">
+            <main class="dark:text-white">
                 @yield('content')
             </main>
             <x-footer-dashboard/>
         </div>
     </div>
+    
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/datepicker.min.js"></script>
 </body>

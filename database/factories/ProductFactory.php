@@ -18,7 +18,13 @@ class ProductFactory extends Factory
             'description' => fake()->sentence(),
             'purchase_price' => fake()->numberBetween(10000, 500000),
             'selling_price' => fake()->numberBetween(50000, 1000000),
-            'image' => 'https://picsum.photos/seed/' . fake()->uuid() . '/640/480',
+            'image' => fake()->randomElement([
+                'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80',
+                'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80',
+                'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80',
+                'https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&q=80',
+                'https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500&q=80',
+            ]),
             'minimum_stock' => 5,
         ];
     }

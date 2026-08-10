@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\CategoryService;
+use App\Services\Category\CategoryService;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
@@ -17,36 +17,48 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = $this->categoryService->getAllCategories();
-        return view('pages.categories.index', compact('categories'));
+        return view('roles.Admin.Categories.index', [
+            'title'      => 'Manajemen Kategori',
+            'categories' => $categories,
+        ]);
+    }
+
+    public function edit($id)
+    {
+        $category = $this->categoryService->getCategoryById($id);
+        return view('roles.Admin.Categories.edit', [
+            'title'    => 'Edit Kategori',
+            'category' => $category,
+        ]);
     }
 
     public function store(Request $request)
     {
-        $request->validate([
-            'name' => 'required|string|max:255',
+        $validated = $request->validate([
+            'name'        => 'required|string|max:255',
             'description' => 'nullable|string',
         ]);
 
-        $this->categoryService->storeCategory($request->all());
+        $this->categoryService->createCategory($validated);
 
-        return redirect()->back()->with('success', 'Kategori berhasil ditambahkan!');
+        return redirect()->route('categories.index')->with('success', 'Kategori berhasil ditambahkan!');
     }
 
     public function update(Request $request, $id)
     {
-        $request->validate([
-            'name' => 'required|string|max:255',
+        $validated = $request->validate([
+            'name'        => 'required|string|max:255',
             'description' => 'nullable|string',
         ]);
 
-        $this->categoryService->updateCategory($id, $request->all());
+        $this->categoryService->updateCategory($id, $validated);
 
-        return redirect()->back()->with('success', 'Kategori berhasil diperbarui!');
+        return redirect()->route('categories.index')->with('success', 'Kategori berhasil diperbarui!');
     }
 
     public function destroy($id)
     {
         $this->categoryService->deleteCategory($id);
-        return redirect()->back()->with('success', 'Kategori berhasil dihapus!');
+        return redirect()->route('categories.index')->with('success', 'Kategori berhasil dihapus!');
     }
 }

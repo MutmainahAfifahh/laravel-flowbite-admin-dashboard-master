@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Services\SupplierService;
+use App\Services\Supplier\SupplierService;
 use Illuminate\Http\Request;
 
 class SupplierController extends Controller
@@ -17,40 +17,52 @@ class SupplierController extends Controller
     public function index()
     {
         $suppliers = $this->supplierService->getAllSuppliers();
-        return view('pages.suppliers.index', compact('suppliers'));
+        return view('roles.Admin.Suppliers.index', compact('suppliers'));
+    }
+
+    public function show($id)
+    {
+        $supplier = $this->supplierService->getSupplier($id);
+        return view('roles.Admin.Suppliers.detail', compact('supplier'));
+    }
+
+    public function edit($id)
+    {
+        $supplier = $this->supplierService->getSupplier($id);
+        return view('roles.Admin.Suppliers.edit', compact('supplier'));
     }
 
     public function store(Request $request)
     {
-        $request->validate([
+        $validated = $request->validate([
             'name' => 'required|string|max:255',
             'address' => 'nullable|string',
             'phone' => 'nullable|string|max:20',
             'email' => 'nullable|email|max:255',
         ]);
 
-        $this->supplierService->storeSupplier($request->all());
+        $this->supplierService->createSupplier($validated);
 
-        return redirect()->back()->with('success', 'Supplier berhasil ditambahkan!');
+        return redirect()->route('suppliers.index')->with('success', 'Supplier berhasil ditambahkan!');
     }
 
     public function update(Request $request, $id)
     {
-        $request->validate([
+        $validated = $request->validate([
             'name' => 'required|string|max:255',
             'address' => 'nullable|string',
             'phone' => 'nullable|string|max:20',
             'email' => 'nullable|email|max:255',
         ]);
 
-        $this->supplierService->updateSupplier($id, $request->all());
+        $this->supplierService->updateSupplier($id, $validated);
 
-        return redirect()->back()->with('success', 'Supplier berhasil diperbarui!');
+        return redirect()->route('suppliers.index')->with('success', 'Supplier berhasil diperbarui!');
     }
 
     public function destroy($id)
     {
         $this->supplierService->deleteSupplier($id);
-        return redirect()->back()->with('success', 'Supplier berhasil dihapus!');
+        return redirect()->route('suppliers.index')->with('success', 'Supplier berhasil dihapus!');
     }
 }

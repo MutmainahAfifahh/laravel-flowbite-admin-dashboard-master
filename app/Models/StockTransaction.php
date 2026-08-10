@@ -5,9 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
 class StockTransaction extends Model
 {
     use HasFactory;
+
+    protected $table = 'stock_transactions';
 
     protected $fillable = [
         'product_id',
@@ -19,19 +23,11 @@ class StockTransaction extends Model
         'notes',
     ];
 
-    /**
-     * Relasi ke Product
-     */
-    public function product()
-    {
-        return $this->belongsTo(Product::class);
+    public function product(): BelongsTo {
+        return $this->belongsTo(Product::class, 'product_id');
     }
 
-    /**
-     * Relasi ke User
-     */
-    public function user()
-    {
-        return $this->belongsTo(User::class);
+    public function user(): BelongsTo {
+        return $this->belongsTo(User::class, 'user_id');
     }
 }
