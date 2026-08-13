@@ -22,7 +22,7 @@ class SupplierRepositoryImplement extends Eloquent implements SupplierRepository
 
     public function all()
     {
-        return $this->model->all();
+        return $this->model->latest()->get();
     }
 
     public function pagination()

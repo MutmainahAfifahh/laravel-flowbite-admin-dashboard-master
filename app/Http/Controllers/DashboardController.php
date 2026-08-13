@@ -44,13 +44,32 @@ class DashboardController extends Controller
     public function index() {
         $MinQuantity = $this->stockTransactionService->getMinimumQuantityStock();
         
-        if (Auth::user()->role == 'Admin') {
+        $userRole = strtolower(trim(Auth::user()->role ?? ''));
+
+        if (in_array($userRole, ['admin'])) {
             $getAllProducts = $this->productService->getAllProducts();
             $activitiesUser = $this->userService->getAllUserActivities();
             $totalLowStock = $this->stockTransactionService->countLowStock($MinQuantity);
             $transactionLastSixMonth = $this->stockTransactionService->getTransactionByMonthAndYear();
             $IncomingTransactionInMonth = $this->stockTransactionService->getTransactionByTypeAndPeriod('Masuk', 30);
             $outgoingTransactionInMonth = $this->stockTransactionService->getTransactionByTypeAndPeriod('Keluar', 30);
+
+            // Data grafik: 6 bulan terakhir (seperti di dashboard lama)
+            $chartLabels = [];
+            $chartMasuk  = [];
+            $chartKeluar = [];
+            for ($i = 5; $i >= 0; $i--) {
+                $month = now()->subMonths($i);
+                $chartLabels[] = $month->format('M Y');
+                $chartMasuk[]  = \App\Models\StockTransaction::where('type', 'Masuk')
+                                    ->whereYear('created_at', $month->year)
+                                    ->whereMonth('created_at', $month->month)
+                                    ->sum('quantity');
+                $chartKeluar[] = \App\Models\StockTransaction::where('type', 'Keluar')
+                                    ->whereYear('created_at', $month->year)
+                                    ->whereMonth('created_at', $month->month)
+                                    ->sum('quantity');
+            }
 
             return view('roles.Admin.index', [
                 'title' => 'Dashboard Admin',
@@ -60,24 +79,29 @@ class DashboardController extends Controller
                 'incomingTransaction' => $IncomingTransactionInMonth,
                 'outgoingTransaction' => $outgoingTransactionInMonth,
                 'transactionData' => $transactionLastSixMonth,
+                'chartLabels' => $chartLabels,
+                'chartMasuk' => $chartMasuk,
+                'chartKeluar' => $chartKeluar,
             ]);
-        } elseif (Auth::user()->role == "Staff Gudang") {
+        } elseif (in_array($userRole, ['staff gudang', 'staff', 'staff_gudang'])) {
             $incomingTransactionByType = $this->stockTransactionService->getTransactionByType('Masuk');
             $outgoingTransactionByType = $this->stockTransactionService->getTransactionByType('Keluar');
-            return view('roles.staff.index', [
+            return view('roles.Staff.index', [
                 'title' => 'Dashboard Staff Gudang',
                 'incomingItem' => count($incomingTransactionByType),
                 'outgoingItem' => count($outgoingTransactionByType),
             ]);
-        } elseif (Auth::user()->role == "Manajer Gudang") {
+        } else {
             $totalLowStock = $this->stockTransactionService->countLowStock($MinQuantity);
             $IncomingTransactionInDay = $this->stockTransactionService->getTransactionByTypeAndPeriod('Masuk', 1);
             $outgoingTransactionInDay = $this->stockTransactionService->getTransactionByTypeAndPeriod('Keluar', 1);
-            return view('roles.manager.index', [
+            $activitiesUser = $this->userService->getAllUserActivities();
+            return view('roles.Manajer-Gudang.index', [
                 'title' => 'Dashboard Manajer Gudang',
                 'incomingTransaction' => $IncomingTransactionInDay,
                 'outgoingTransaction' => $outgoingTransactionInDay,
                 'lowStock' => $totalLowStock,
+                'activities' => $activitiesUser,
             ]);
         }
     }

@@ -33,19 +33,34 @@ class ProductController extends Controller
         $categories = $this->categoryService->getAllCategories();
         $suppliers = $this->supplierService->getAllSuppliers();
 
-        // image_url otomatis diikutsertakan oleh Model Product ($appends)
+        $userRole = strtolower(trim(auth()->user()->role ?? ''));
+
+        // Manajer Gudang mendapat view khusus (read-only, lebih sederhana)
+        if (in_array($userRole, ['manajer gudang', 'manajer_gudang', 'manajer'])) {
+            return view('roles.Manajer-Gudang.product.index', compact('products', 'categories', 'suppliers'))
+                ->with('title', 'Daftar Produk');
+        }
+
+        // Admin mendapat view lengkap dengan fitur CRUD
         return view('roles.Admin.Products.index', compact('products', 'categories', 'suppliers'));
     }
 
     public function store(Request $request)
     {
+        if ($request->has('purchase_price')) {
+            $request->merge(['purchase_price' => str_replace('.', '', $request->input('purchase_price'))]);
+        }
+        if ($request->has('selling_price')) {
+            $request->merge(['selling_price' => str_replace('.', '', $request->input('selling_price'))]);
+        }
+
         $validated = $request->validate([
             'category_id' => 'nullable|exists:categories,id',
             'new_category' => 'nullable|string|max:255',
             'supplier_id' => 'nullable|exists:suppliers,id',
             'new_supplier' => 'nullable|string|max:255',
             'name' => 'required|string|max:255',
-            'sku' => 'nullable|string|unique:products,sku',
+            'sku' => 'required|string|unique:products,sku',
             'description' => 'nullable|string',
             'purchase_price' => 'required|numeric|min:0|max:999999999999',
             'selling_price' => 'required|numeric|min:0|max:999999999999',
@@ -72,10 +87,6 @@ class ProductController extends Controller
             if ($request->filled('new_supplier')) {
                 $supplier = \App\Models\Supplier::firstOrCreate(['name' => trim($request->new_supplier)]);
                 $validated['supplier_id'] = $supplier->id;
-            }
-
-            if (empty($validated['sku'])) {
-                $validated['sku'] = 'PRD-' . strtoupper(Str::random(8));
             }
 
             if (!isset($validated['minimum_stock'])) {
@@ -105,13 +116,20 @@ class ProductController extends Controller
 
     public function update(Request $request, string $id)
     {
+        if ($request->has('purchase_price')) {
+            $request->merge(['purchase_price' => str_replace('.', '', $request->input('purchase_price'))]);
+        }
+        if ($request->has('selling_price')) {
+            $request->merge(['selling_price' => str_replace('.', '', $request->input('selling_price'))]);
+        }
+
         $validated = $request->validate([
             'category_id' => 'nullable|exists:categories,id',
             'new_category' => 'nullable|string|max:255',
             'supplier_id' => 'nullable|exists:suppliers,id',
             'new_supplier' => 'nullable|string|max:255',
             'name' => 'required|string|max:255',
-            'sku' => ['nullable', 'string', 'max:255', Rule::unique('products', 'sku')->ignore($id)],
+            'sku' => ['required', 'string', 'max:255', Rule::unique('products', 'sku')->ignore($id)],
             'description' => 'nullable|string',
             'purchase_price' => 'required|numeric|min:0|max:999999999999',
             'selling_price' => 'required|numeric|min:0|max:999999999999',
@@ -130,10 +148,6 @@ class ProductController extends Controller
             if ($request->filled('new_supplier')) {
                 $supplier = \App\Models\Supplier::firstOrCreate(['name' => trim($request->new_supplier)]);
                 $validated['supplier_id'] = $supplier->id;
-            }
-
-            if (empty($validated['sku'])) {
-                $validated['sku'] = $product->sku ?? ('PRD-' . strtoupper(Str::random(8)));
             }
 
             if ($request->hasFile('image')) {
@@ -216,8 +230,9 @@ class ProductController extends Controller
         $importedCount = 0;
         while (($row = fgetcsv($handle, 0, $delimiter)) !== false) {
             if (empty($row) || empty($row[1])) continue;
+            if (empty($row[0]) || $row[0] === '-') continue;
 
-            $sku = !empty($row[0]) && $row[0] !== '-' ? trim($row[0]) : 'PRD-' . strtoupper(Str::random(6));
+            $sku = trim($row[0]);
             $name = trim($row[1]);
             $categoryName = isset($row[2]) ? trim($row[2]) : null;
             $supplierName = isset($row[3]) ? trim($row[3]) : null;

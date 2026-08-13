@@ -1,0 +1,4002 @@
+[
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #22 (et totam dolores)",
+        "message": "StockTransaction 'Transaction #22 (et totam dolores)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.478668Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et totam dolores",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #21 (et totam dolores)",
+        "message": "StockTransaction 'Transaction #21 (et totam dolores)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.504245Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et totam dolores",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #7 (laboriosam ratione nihil)",
+        "message": "StockTransaction 'Transaction #7 (laboriosam ratione nihil)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.530369Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "laboriosam ratione nihil",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (dolorem eum illum)",
+        "message": "StockTransaction 'Transaction #12 (dolorem eum illum)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.557241Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolorem eum illum",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #9 (ratione itaque perspiciatis)",
+        "message": "StockTransaction 'Transaction #9 (ratione itaque perspiciatis)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.587071Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ratione itaque perspiciatis",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (totam in necessitatibus)",
+        "message": "StockTransaction 'Transaction #6 (totam in necessitatibus)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.616226Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "totam in necessitatibus",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #3 (nihil non amet)",
+        "message": "StockTransaction 'Transaction #3 (nihil non amet)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.645798Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "nihil non amet",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #17 (aspernatur eos voluptatem)",
+        "message": "StockTransaction 'Transaction #17 (aspernatur eos voluptatem)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.673917Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aspernatur eos voluptatem",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #2 (ab facilis optio)",
+        "message": "StockTransaction 'Transaction #2 (ab facilis optio)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.705531Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ab facilis optio",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #8 (laboriosam ratione nihil)",
+        "message": "StockTransaction 'Transaction #8 (laboriosam ratione nihil)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.734028Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "laboriosam ratione nihil",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #24 (esse recusandae molestias)",
+        "message": "StockTransaction 'Transaction #24 (esse recusandae molestias)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.761968Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "esse recusandae molestias",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #18 (aspernatur eos voluptatem)",
+        "message": "StockTransaction 'Transaction #18 (aspernatur eos voluptatem)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.789944Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aspernatur eos voluptatem",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #20 (dolorum quia optio)",
+        "message": "StockTransaction 'Transaction #20 (dolorum quia optio)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.820062Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolorum quia optio",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #13 (provident qui numquam)",
+        "message": "StockTransaction 'Transaction #13 (provident qui numquam)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.850474Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "provident qui numquam",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #1 (ab facilis optio)",
+        "message": "StockTransaction 'Transaction #1 (ab facilis optio)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.879017Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ab facilis optio",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #15 (eius voluptates nobis)",
+        "message": "StockTransaction 'Transaction #15 (eius voluptates nobis)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.907313Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eius voluptates nobis",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #23 (esse recusandae molestias)",
+        "message": "StockTransaction 'Transaction #23 (esse recusandae molestias)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.935456Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "esse recusandae molestias",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #10 (ratione itaque perspiciatis)",
+        "message": "StockTransaction 'Transaction #10 (ratione itaque perspiciatis)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.967278Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ratione itaque perspiciatis",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #16 (eius voluptates nobis)",
+        "message": "StockTransaction 'Transaction #16 (eius voluptates nobis)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:56.995855Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eius voluptates nobis",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:56.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (nihil non amet)",
+        "message": "StockTransaction 'Transaction #4 (nihil non amet)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:57.025904Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "nihil non amet",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:57.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #11 (dolorem eum illum)",
+        "message": "StockTransaction 'Transaction #11 (dolorem eum illum)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:57.055726Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolorem eum illum",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:57.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #5 (totam in necessitatibus)",
+        "message": "StockTransaction 'Transaction #5 (totam in necessitatibus)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:57.090270Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "totam in necessitatibus",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:57.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #19 (dolorum quia optio)",
+        "message": "StockTransaction 'Transaction #19 (dolorum quia optio)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:57.131967Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolorum quia optio",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-11T14:58:57.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (provident qui numquam)",
+        "message": "StockTransaction 'Transaction #14 (provident qui numquam)' has been updated successfully.",
+        "timestamp": "2026-08-11T14:58:57.168368Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "provident qui numquam",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-11T14:58:57.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Product",
+        "entity_name": "ab facilis optio",
+        "message": "Product has been deleted successfully",
+        "timestamp": "2026-08-11T14:59:40.375736Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Product",
+        "entity_name": "ab facilis optio",
+        "message": "Product 'ab facilis optio' has been deleted successfully.",
+        "timestamp": "2026-08-11T14:59:40.382574Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "delete",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi corrupti ut",
+        "message": "Stock Product with Type \"Keluar\" deleted successfully",
+        "timestamp": "2026-08-11T15:06:50.346779Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "delete",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #18 (eligendi corrupti ut)",
+        "message": "StockTransaction 'Transaction #18 (eligendi corrupti ut)' has been deleted successfully.",
+        "timestamp": "2026-08-11T15:06:50.350977Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #8 (eligendi et est)",
+        "message": "StockTransaction 'Transaction #8 (eligendi et est)' has been updated successfully.",
+        "timestamp": "2026-08-11T15:54:00.615621Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #15 (et praesentium voluptate)",
+        "message": "StockTransaction 'Transaction #15 (et praesentium voluptate)' has been updated successfully.",
+        "timestamp": "2026-08-11T16:15:49.771643Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #15 (et praesentium voluptate)",
+        "message": "StockTransaction 'Transaction #15 (et praesentium voluptate)' has been updated successfully.",
+        "timestamp": "2026-08-11T16:46:09.548574Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (molestias et et)",
+        "message": "StockTransaction 'Transaction #25 (molestias et et)' has been created successfully.",
+        "timestamp": "2026-08-11T17:16:21.455044Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "molestias et et",
+        "message": "Stock Product with Type \"Masuk\" created successfully",
+        "timestamp": "2026-08-11T17:16:21.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (molestias et et)",
+        "message": "StockTransaction 'Transaction #25 (molestias et et)' has been updated successfully.",
+        "timestamp": "2026-08-11T17:16:55.236382Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #26 (natus adipisci dignissimos)",
+        "message": "StockTransaction 'Transaction #26 (natus adipisci dignissimos)' has been created successfully.",
+        "timestamp": "2026-08-11T17:22:13.757306Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "natus adipisci dignissimos",
+        "message": "Stock Product with Type \"Masuk\" created successfully",
+        "timestamp": "2026-08-11T17:22:13.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (molestias et et)",
+        "message": "StockTransaction 'Transaction #25 (molestias et et)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.194051Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "molestias et et",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #5 (laborum vero ut)",
+        "message": "StockTransaction 'Transaction #5 (laborum vero ut)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.232891Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "laborum vero ut",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #17 (et aut voluptas)",
+        "message": "StockTransaction 'Transaction #17 (et aut voluptas)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.256146Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et aut voluptas",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #24 (accusantium consequatur officiis)",
+        "message": "StockTransaction 'Transaction #24 (accusantium consequatur officiis)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.290350Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "accusantium consequatur officiis",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #19 (dolores reiciendis non)",
+        "message": "StockTransaction 'Transaction #19 (dolores reiciendis non)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.318869Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolores reiciendis non",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #13 (sequi cupiditate dicta)",
+        "message": "StockTransaction 'Transaction #13 (sequi cupiditate dicta)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.347179Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "sequi cupiditate dicta",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #2 (ut explicabo iste)",
+        "message": "StockTransaction 'Transaction #2 (ut explicabo iste)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.377171Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ut explicabo iste",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #22 (voluptas voluptatem est)",
+        "message": "StockTransaction 'Transaction #22 (voluptas voluptatem est)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.406812Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptas voluptatem est",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (natus adipisci dignissimos)",
+        "message": "StockTransaction 'Transaction #12 (natus adipisci dignissimos)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.435265Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "natus adipisci dignissimos",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (et natus ut)",
+        "message": "StockTransaction 'Transaction #4 (et natus ut)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.461613Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et natus ut",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #11 (natus adipisci dignissimos)",
+        "message": "StockTransaction 'Transaction #11 (natus adipisci dignissimos)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.494253Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "natus adipisci dignissimos",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #9 (molestias et et)",
+        "message": "StockTransaction 'Transaction #9 (molestias et et)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.524683Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "molestias et et",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (laborum vero ut)",
+        "message": "StockTransaction 'Transaction #6 (laborum vero ut)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.553688Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "laborum vero ut",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #1 (ut explicabo iste)",
+        "message": "StockTransaction 'Transaction #1 (ut explicabo iste)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.580138Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ut explicabo iste",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #7 (eligendi et est)",
+        "message": "StockTransaction 'Transaction #7 (eligendi et est)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.609495Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi et est",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #20 (dolores reiciendis non)",
+        "message": "StockTransaction 'Transaction #20 (dolores reiciendis non)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.638047Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolores reiciendis non",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #23 (accusantium consequatur officiis)",
+        "message": "StockTransaction 'Transaction #23 (accusantium consequatur officiis)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.666261Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "accusantium consequatur officiis",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (sequi cupiditate dicta)",
+        "message": "StockTransaction 'Transaction #14 (sequi cupiditate dicta)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.694255Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "sequi cupiditate dicta",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #18 (et aut voluptas)",
+        "message": "StockTransaction 'Transaction #18 (et aut voluptas)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.725428Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et aut voluptas",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #21 (voluptas voluptatem est)",
+        "message": "StockTransaction 'Transaction #21 (voluptas voluptatem est)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.754770Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptas voluptatem est",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #3 (et natus ut)",
+        "message": "StockTransaction 'Transaction #3 (et natus ut)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.784328Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et natus ut",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #16 (et praesentium voluptate)",
+        "message": "StockTransaction 'Transaction #16 (et praesentium voluptate)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.814975Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et praesentium voluptate",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #10 (molestias et et)",
+        "message": "StockTransaction 'Transaction #10 (molestias et et)' has been updated successfully.",
+        "timestamp": "2026-08-12T02:51:20.840991Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "molestias et et",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T02:51:20.000000Z"
+    },
+    {
+        "user_id": "afifah mutmainah",
+        "action": "create",
+        "entity": "User",
+        "entity_name": "admin stockify",
+        "message": "User has been created successfully",
+        "timestamp": "2026-08-12T02:52:35.000000Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "Laptop Pro X15",
+        "message": "Category 'Laptop Pro X15' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.159153Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "SKU-ELK-001",
+        "message": "Supplier 'SKU-ELK-001' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.166183Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "PT Tech Utama",
+        "message": "Product 'PT Tech Utama' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.180522Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "Kemeja Batik Slim Fit",
+        "message": "Category 'Kemeja Batik Slim Fit' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.195856Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "SKU-PAK-002",
+        "message": "Supplier 'SKU-PAK-002' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.211662Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "CV Busana Indah",
+        "message": "Product 'CV Busana Indah' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.229307Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "Kopi Kintamani 250g",
+        "message": "Category 'Kopi Kintamani 250g' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.246949Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "SKU-FNB-003",
+        "message": "Supplier 'SKU-FNB-003' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.263680Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "PT Pangan Makmur",
+        "message": "Product 'PT Pangan Makmur' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.277348Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "Lampu Meja LED Smart",
+        "message": "Category 'Lampu Meja LED Smart' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.291576Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "SKU-PRM-004",
+        "message": "Supplier 'SKU-PRM-004' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.308924Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "PT Home Decor",
+        "message": "Product 'PT Home Decor' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.320893Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "TWS Wireless Earbuds",
+        "message": "Category 'TWS Wireless Earbuds' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.337710Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "SKU-AKS-005",
+        "message": "Supplier 'SKU-AKS-005' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.351880Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "CV Gadget Store",
+        "message": "Product 'CV Gadget Store' has been created successfully.",
+        "timestamp": "2026-08-12T03:18:30.366057Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Product",
+        "entity_name": "PT Tech Utama",
+        "message": "Product has been deleted successfully",
+        "timestamp": "2026-08-12T03:18:50.330567Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Product",
+        "entity_name": "PT Tech Utama",
+        "message": "Product 'PT Tech Utama' has been deleted successfully.",
+        "timestamp": "2026-08-12T03:18:50.337825Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Categories",
+        "entity_name": "Kopi Kintamani 250g",
+        "message": "Categories has been deleted successfuly",
+        "timestamp": "2026-08-12T03:19:44.257141Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Category",
+        "entity_name": "Kopi Kintamani 250g",
+        "message": "Category 'Kopi Kintamani 250g' has been deleted successfully.",
+        "timestamp": "2026-08-12T03:19:44.264720Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Categories",
+        "entity_name": "TWS Wireless Earbuds",
+        "message": "Categories has been deleted successfuly",
+        "timestamp": "2026-08-12T03:19:53.971175Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Category",
+        "entity_name": "TWS Wireless Earbuds",
+        "message": "Category 'TWS Wireless Earbuds' has been deleted successfully.",
+        "timestamp": "2026-08-12T03:19:53.980109Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Categories",
+        "entity_name": "Lampu Meja LED Smart",
+        "message": "Categories has been deleted successfuly",
+        "timestamp": "2026-08-12T03:19:59.591051Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Category",
+        "entity_name": "Lampu Meja LED Smart",
+        "message": "Category 'Lampu Meja LED Smart' has been deleted successfully.",
+        "timestamp": "2026-08-12T03:19:59.598762Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Categories",
+        "entity_name": "Kemeja Batik Slim Fit",
+        "message": "Categories has been deleted successfuly",
+        "timestamp": "2026-08-12T03:20:04.353935Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Category",
+        "entity_name": "Kemeja Batik Slim Fit",
+        "message": "Category 'Kemeja Batik Slim Fit' has been deleted successfully.",
+        "timestamp": "2026-08-12T03:20:04.362691Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Categories",
+        "entity_name": "Laptop Pro X15",
+        "message": "Categories has been deleted successfuly",
+        "timestamp": "2026-08-12T03:20:08.508465Z"
+    },
+    {
+        "user_id": "admin stockify",
+        "action": "delete",
+        "entity": "Category",
+        "entity_name": "Laptop Pro X15",
+        "message": "Category 'Laptop Pro X15' has been deleted successfully.",
+        "timestamp": "2026-08-12T03:20:08.515259Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #9 (placeat nobis eveniet)",
+        "message": "StockTransaction 'Transaction #9 (placeat nobis eveniet)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:03:27.423989Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #8 (velit accusamus qui)",
+        "message": "StockTransaction 'Transaction #8 (velit accusamus qui)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:03:33.119791Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #6 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.396739Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi doloribus aut",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #4 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.422094Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aut eaque reiciendis",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #1 (numquam ut amet)",
+        "message": "StockTransaction 'Transaction #1 (numquam ut amet)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.454649Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "numquam ut amet",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #13 (rerum ipsa officia)",
+        "message": "StockTransaction 'Transaction #13 (rerum ipsa officia)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.495685Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "rerum ipsa officia",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #24 (molestiae molestiae nam)",
+        "message": "StockTransaction 'Transaction #24 (molestiae molestiae nam)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.520926Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "molestiae molestiae nam",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #10 (placeat nobis eveniet)",
+        "message": "StockTransaction 'Transaction #10 (placeat nobis eveniet)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.549119Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "placeat nobis eveniet",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #20 (ipsam aut totam)",
+        "message": "StockTransaction 'Transaction #20 (ipsam aut totam)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.579186Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ipsam aut totam",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #21 (vero rerum laudantium)",
+        "message": "StockTransaction 'Transaction #21 (vero rerum laudantium)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.606490Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "vero rerum laudantium",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #11 (vero nisi reprehenderit)",
+        "message": "StockTransaction 'Transaction #11 (vero nisi reprehenderit)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.639452Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "vero nisi reprehenderit",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #7 (velit accusamus qui)",
+        "message": "StockTransaction 'Transaction #7 (velit accusamus qui)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.672206Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "velit accusamus qui",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #22 (vero rerum laudantium)",
+        "message": "StockTransaction 'Transaction #22 (vero rerum laudantium)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.704196Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "vero rerum laudantium",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #15 (voluptates voluptatibus qui)",
+        "message": "StockTransaction 'Transaction #15 (voluptates voluptatibus qui)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.736818Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptates voluptatibus qui",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #23 (molestiae molestiae nam)",
+        "message": "StockTransaction 'Transaction #23 (molestiae molestiae nam)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.779546Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "molestiae molestiae nam",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (rerum ipsa officia)",
+        "message": "StockTransaction 'Transaction #14 (rerum ipsa officia)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.812535Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "rerum ipsa officia",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #2 (numquam ut amet)",
+        "message": "StockTransaction 'Transaction #2 (numquam ut amet)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.846623Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "numquam ut amet",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #17 (aut id libero)",
+        "message": "StockTransaction 'Transaction #17 (aut id libero)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.880609Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aut id libero",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (vero nisi reprehenderit)",
+        "message": "StockTransaction 'Transaction #12 (vero nisi reprehenderit)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.912753Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "vero nisi reprehenderit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #19 (ipsam aut totam)",
+        "message": "StockTransaction 'Transaction #19 (ipsam aut totam)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.947186Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ipsam aut totam",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #18 (aut id libero)",
+        "message": "StockTransaction 'Transaction #18 (aut id libero)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:45.982093Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aut id libero",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #5 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #5 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:46.024716Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi doloribus aut",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:46.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #3 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #3 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:46.063847Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aut eaque reiciendis",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:06:46.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #16 (voluptates voluptatibus qui)",
+        "message": "StockTransaction 'Transaction #16 (voluptates voluptatibus qui)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:06:46.101850Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptates voluptatibus qui",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:06:46.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #4 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:26:12.852359Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aut eaque reiciendis",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:26:12.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #6 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:39:20.498651Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi doloribus aut",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T04:39:20.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #6 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:54:11.581141Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi doloribus aut",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:54:11.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #4 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T04:54:11.607991Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aut eaque reiciendis",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T04:54:11.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #6 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:00:16.304249Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #4 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:00:39.234529Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #4 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:00:51.871155Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #4 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:00:58.018775Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #6 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:03:08.078967Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #6 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:03:36.944687Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (eligendi doloribus aut)",
+        "message": "StockTransaction 'Transaction #6 (eligendi doloribus aut)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:16:01.910374Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (aut eaque reiciendis)",
+        "message": "StockTransaction 'Transaction #4 (aut eaque reiciendis)' has been updated successfully.",
+        "timestamp": "2026-08-12T06:16:06.005895Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product 'Samsung S26' has been created successfully.",
+        "timestamp": "2026-08-12T06:27:44.908296Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product has been created successfully",
+        "timestamp": "2026-08-12T06:27:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product 'Samsung S26' has been updated successfully.",
+        "timestamp": "2026-08-12T06:28:26.420514Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product has been updated successfully",
+        "timestamp": "2026-08-12T06:28:26.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product 'Samsung S26' has been updated successfully.",
+        "timestamp": "2026-08-12T06:31:05.294478Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product has been updated successfully",
+        "timestamp": "2026-08-12T06:31:05.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product 'Samsung S26' has been updated successfully.",
+        "timestamp": "2026-08-12T06:35:12.164629Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "Samsung S26",
+        "message": "Product has been updated successfully",
+        "timestamp": "2026-08-12T06:35:12.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "Perlengkapan Naik Gunung",
+        "message": "Category 'Perlengkapan Naik Gunung' has been created successfully.",
+        "timestamp": "2026-08-12T06:38:58.049409Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Categories",
+        "entity_name": "Perlengkapan Naik Gunung",
+        "message": "Categories has been created successfuly",
+        "timestamp": "2026-08-12T06:38:58.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "ProductAttribute",
+        "entity_name": "Garansi",
+        "message": "ProductAttribute 'Garansi' has been created successfully.",
+        "timestamp": "2026-08-12T06:42:04.467220Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product Attribute",
+        "entity_name": "Garansi",
+        "message": "Product Attribute has been created successfully",
+        "timestamp": "2026-08-12T06:42:04.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (omnis voluptate id)",
+        "message": "StockTransaction 'Transaction #14 (omnis voluptate id)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.186629Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "omnis voluptate id",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (ratione quis voluptatum)",
+        "message": "StockTransaction 'Transaction #12 (ratione quis voluptatum)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.214741Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ratione quis voluptatum",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #10 (quia in adipisci)",
+        "message": "StockTransaction 'Transaction #10 (quia in adipisci)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.250632Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "quia in adipisci",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (esse vero recusandae)",
+        "message": "StockTransaction 'Transaction #6 (esse vero recusandae)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.284844Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "esse vero recusandae",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #2 (est voluptatibus corrupti)",
+        "message": "StockTransaction 'Transaction #2 (est voluptatibus corrupti)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.317615Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "est voluptatibus corrupti",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #21 (at modi itaque)",
+        "message": "StockTransaction 'Transaction #21 (at modi itaque)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.354144Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "at modi itaque",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #13 (omnis voluptate id)",
+        "message": "StockTransaction 'Transaction #13 (omnis voluptate id)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.387316Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "omnis voluptate id",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #3 (dolorem sit unde)",
+        "message": "StockTransaction 'Transaction #3 (dolorem sit unde)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.418915Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolorem sit unde",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #22 (at modi itaque)",
+        "message": "StockTransaction 'Transaction #22 (at modi itaque)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.454475Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "at modi itaque",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #18 (enim et velit)",
+        "message": "StockTransaction 'Transaction #18 (enim et velit)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.489161Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "enim et velit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #19 (eligendi velit architecto)",
+        "message": "StockTransaction 'Transaction #19 (eligendi velit architecto)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.525631Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi velit architecto",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #9 (quia in adipisci)",
+        "message": "StockTransaction 'Transaction #9 (quia in adipisci)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.560486Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "quia in adipisci",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #23 (assumenda tempora suscipit)",
+        "message": "StockTransaction 'Transaction #23 (assumenda tempora suscipit)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.594067Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "assumenda tempora suscipit",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #17 (enim et velit)",
+        "message": "StockTransaction 'Transaction #17 (enim et velit)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.627823Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "enim et velit",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #15 (quo sint id)",
+        "message": "StockTransaction 'Transaction #15 (quo sint id)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.659788Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "quo sint id",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (dolorem sit unde)",
+        "message": "StockTransaction 'Transaction #4 (dolorem sit unde)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.696032Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolorem sit unde",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #1 (est voluptatibus corrupti)",
+        "message": "StockTransaction 'Transaction #1 (est voluptatibus corrupti)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.729568Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "est voluptatibus corrupti",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #5 (esse vero recusandae)",
+        "message": "StockTransaction 'Transaction #5 (esse vero recusandae)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.766359Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "esse vero recusandae",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #8 (et sint eum)",
+        "message": "StockTransaction 'Transaction #8 (et sint eum)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.804287Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et sint eum",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #20 (eligendi velit architecto)",
+        "message": "StockTransaction 'Transaction #20 (eligendi velit architecto)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.839881Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "eligendi velit architecto",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #16 (quo sint id)",
+        "message": "StockTransaction 'Transaction #16 (quo sint id)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.876015Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "quo sint id",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #24 (assumenda tempora suscipit)",
+        "message": "StockTransaction 'Transaction #24 (assumenda tempora suscipit)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.908699Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "assumenda tempora suscipit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #11 (ratione quis voluptatum)",
+        "message": "StockTransaction 'Transaction #11 (ratione quis voluptatum)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.943446Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ratione quis voluptatum",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #7 (et sint eum)",
+        "message": "StockTransaction 'Transaction #7 (et sint eum)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:13:44.975130Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "et sint eum",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T07:13:44.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (omnis voluptate id)",
+        "message": "StockTransaction 'Transaction #14 (omnis voluptate id)' has been updated successfully.",
+        "timestamp": "2026-08-12T07:14:07.639592Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "PT Logistic Express Nusantara",
+        "message": "Supplier 'PT Logistic Express Nusantara' has been updated successfully.",
+        "timestamp": "2026-08-12T07:16:13.258877Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "PT Logistic Express Nusantara",
+        "message": "Supplier has been updated successfully",
+        "timestamp": "2026-08-12T07:16:13.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "Stock_Transaction",
+        "entity_name": "omnis voluptate id",
+        "message": "Stock Product with Type \"Masuk\" deleted successfully",
+        "timestamp": "2026-08-12T08:36:26.389650Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (omnis voluptate id)",
+        "message": "StockTransaction 'Transaction #14 (omnis voluptate id)' has been deleted successfully.",
+        "timestamp": "2026-08-12T08:36:26.399578Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (ratione quis voluptatum)",
+        "message": "StockTransaction 'Transaction #12 (ratione quis voluptatum)' has been updated successfully.",
+        "timestamp": "2026-08-12T08:54:17.452518Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ratione quis voluptatum",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T08:54:17.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (dolorem sit unde)",
+        "message": "StockTransaction 'Transaction #12 (dolorem sit unde)' has been updated successfully.",
+        "timestamp": "2026-08-12T08:54:38.299861Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolorem sit unde",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T08:54:38.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (est voluptatibus corrupti)",
+        "message": "StockTransaction 'Transaction #25 (est voluptatibus corrupti)' has been created successfully.",
+        "timestamp": "2026-08-12T11:27:55.015540Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "est voluptatibus corrupti",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-12T11:27:55.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "Stock_Transaction",
+        "entity_name": "odio eos libero",
+        "message": "Stock Product with Type \"Masuk\" deleted successfully",
+        "timestamp": "2026-08-12T11:42:21.231865Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #9 (odio eos libero)",
+        "message": "StockTransaction 'Transaction #9 (odio eos libero)' has been deleted successfully.",
+        "timestamp": "2026-08-12T11:42:21.238159Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "Stock_Transaction",
+        "entity_name": "beatae architecto ad",
+        "message": "Stock Product with Type \"Masuk\" deleted successfully",
+        "timestamp": "2026-08-12T11:42:29.181918Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #19 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #19 (beatae architecto ad)' has been deleted successfully.",
+        "timestamp": "2026-08-12T11:42:29.186918Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "hhj",
+        "message": "Product 'hhj' has been created successfully.",
+        "timestamp": "2026-08-12T11:45:38.500407Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "hhj",
+        "message": "Product has been created successfully",
+        "timestamp": "2026-08-12T11:45:38.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "97uiuio",
+        "message": "Product '97uiuio' has been created successfully.",
+        "timestamp": "2026-08-12T11:46:06.422545Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "97uiuio",
+        "message": "Product has been created successfully",
+        "timestamp": "2026-08-12T11:46:06.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "yuiyuii",
+        "message": "Product 'yuiyuii' has been updated successfully.",
+        "timestamp": "2026-08-12T11:46:34.112462Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "yuiyuii",
+        "message": "Product has been updated successfully",
+        "timestamp": "2026-08-12T11:46:34.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Product",
+        "entity_name": "hhj",
+        "message": "Product has been deleted successfully",
+        "timestamp": "2026-08-12T11:46:43.648785Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Product",
+        "entity_name": "hhj",
+        "message": "Product 'hhj' has been deleted successfully.",
+        "timestamp": "2026-08-12T11:46:43.655593Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "Peralatan Bayi",
+        "message": "Category 'Peralatan Bayi' has been created successfully.",
+        "timestamp": "2026-08-12T11:47:01.660819Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Categories",
+        "entity_name": "Peralatan Bayi",
+        "message": "Categories has been created successfuly",
+        "timestamp": "2026-08-12T11:47:01.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Category",
+        "entity_name": "hioin",
+        "message": "Category 'hioin' has been updated successfully.",
+        "timestamp": "2026-08-12T11:47:14.308695Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Categories",
+        "entity_name": "hioin",
+        "message": "Categories has been updated successfuly",
+        "timestamp": "2026-08-12T11:47:14.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "ProductAttribute",
+        "entity_name": "warna",
+        "message": "ProductAttribute 'warna' has been created successfully.",
+        "timestamp": "2026-08-12T11:47:36.167717Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Product Attribute",
+        "entity_name": "warna",
+        "message": "Product Attribute has been created successfully",
+        "timestamp": "2026-08-12T11:47:36.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "ProductAttribute",
+        "entity_name": ",nklnkl",
+        "message": "ProductAttribute ',nklnkl' has been updated successfully.",
+        "timestamp": "2026-08-12T11:47:51.502800Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Product Attribute",
+        "entity_name": ",nklnkl",
+        "message": "Product Attribute has been updated successfully",
+        "timestamp": "2026-08-12T11:47:51.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Product Attribute",
+        "entity_name": ",nklnkl",
+        "message": "Product Attribute has been deleted successfully",
+        "timestamp": "2026-08-12T11:47:55.777619Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "ProductAttribute",
+        "entity_name": ",nklnkl",
+        "message": "ProductAttribute ',nklnkl' has been deleted successfully.",
+        "timestamp": "2026-08-12T11:47:55.783542Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #20 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #20 (beatae architecto ad)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.346958Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "beatae architecto ad",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #7 (odio provident culpa)",
+        "message": "StockTransaction 'Transaction #7 (odio provident culpa)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.379405Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "odio provident culpa",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #5 (dolores ea sit)",
+        "message": "StockTransaction 'Transaction #5 (dolores ea sit)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.415785Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolores ea sit",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #3 (ut ea et)",
+        "message": "StockTransaction 'Transaction #3 (ut ea et)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.456188Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ut ea et",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #23 (aliquid minus porro)",
+        "message": "StockTransaction 'Transaction #23 (aliquid minus porro)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.498453Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aliquid minus porro",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #2 (fugit et sit)",
+        "message": "StockTransaction 'Transaction #2 (fugit et sit)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.535858Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "fugit et sit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #21 (quos saepe unde)",
+        "message": "StockTransaction 'Transaction #21 (quos saepe unde)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.572958Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "quos saepe unde",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #13 (recusandae recusandae commodi)",
+        "message": "StockTransaction 'Transaction #13 (recusandae recusandae commodi)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.610780Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "recusandae recusandae commodi",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #18 (alias ad iusto)",
+        "message": "StockTransaction 'Transaction #18 (alias ad iusto)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.648286Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "alias ad iusto",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (recusandae recusandae commodi)",
+        "message": "StockTransaction 'Transaction #14 (recusandae recusandae commodi)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.686077Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "recusandae recusandae commodi",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (dolores ea sit)",
+        "message": "StockTransaction 'Transaction #6 (dolores ea sit)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.719947Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "dolores ea sit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (ut ea et)",
+        "message": "StockTransaction 'Transaction #4 (ut ea et)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.756489Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ut ea et",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #1 (fugit et sit)",
+        "message": "StockTransaction 'Transaction #1 (fugit et sit)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.793809Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "fugit et sit",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #22 (quos saepe unde)",
+        "message": "StockTransaction 'Transaction #22 (quos saepe unde)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.833798Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "quos saepe unde",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (tenetur voluptatem fugit)",
+        "message": "StockTransaction 'Transaction #12 (tenetur voluptatem fugit)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.871933Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "tenetur voluptatem fugit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #8 (odio provident culpa)",
+        "message": "StockTransaction 'Transaction #8 (odio provident culpa)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.908654Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "odio provident culpa",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #17 (alias ad iusto)",
+        "message": "StockTransaction 'Transaction #17 (alias ad iusto)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.946907Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "alias ad iusto",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #16 (nobis vero qui)",
+        "message": "StockTransaction 'Transaction #16 (nobis vero qui)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:53.986453Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "nobis vero qui",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #24 (aliquid minus porro)",
+        "message": "StockTransaction 'Transaction #24 (aliquid minus porro)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:54.022635Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "aliquid minus porro",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:54.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #15 (nobis vero qui)",
+        "message": "StockTransaction 'Transaction #15 (nobis vero qui)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:54.060874Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "nobis vero qui",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:54.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #11 (tenetur voluptatem fugit)",
+        "message": "StockTransaction 'Transaction #11 (tenetur voluptatem fugit)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:54.098998Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "tenetur voluptatem fugit",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:49:54.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #10 (odio eos libero)",
+        "message": "StockTransaction 'Transaction #10 (odio eos libero)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:49:54.134882Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "odio eos libero",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T11:49:54.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #20 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #20 (beatae architecto ad)' has been updated successfully.",
+        "timestamp": "2026-08-12T11:53:10.296286Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "beatae architecto ad",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T11:53:10.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier 'Aqua Google TV AQT55K800UX' has been created successfully.",
+        "timestamp": "2026-08-12T11:57:49.783012Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier created successfully",
+        "timestamp": "2026-08-12T11:57:49.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been updated successfully.",
+        "timestamp": "2026-08-12T11:58:12.332783Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier has been updated successfully",
+        "timestamp": "2026-08-12T11:58:12.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier has been deleted successfully",
+        "timestamp": "2026-08-12T11:58:18.215475Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been deleted successfully.",
+        "timestamp": "2026-08-12T11:58:18.227337Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier 'Aqua Google TV AQT55K800UX' has been created successfully.",
+        "timestamp": "2026-08-12T11:58:31.164537Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier created successfully",
+        "timestamp": "2026-08-12T11:58:31.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier has been deleted successfully",
+        "timestamp": "2026-08-12T11:58:37.098392Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier 'Aqua Google TV AQT55K800UX' has been deleted successfully.",
+        "timestamp": "2026-08-12T11:58:37.103932Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier has been deleted successfully",
+        "timestamp": "2026-08-12T11:58:41.074660Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Supplier 'Aqua Google TV AQT55K800UX' has been deleted successfully.",
+        "timestamp": "2026-08-12T11:58:41.087766Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "create",
+        "entity": "User",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "User has been created successfully",
+        "timestamp": "2026-08-12T11:59:25.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "User",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "User has been updated successfully",
+        "timestamp": "2026-08-12T11:59:39.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "update",
+        "entity": "User",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "User has been updated successfully",
+        "timestamp": "2026-08-12T11:59:50.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify (Gmail)",
+        "action": "delete",
+        "entity": "User",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "User has been deleted successfully",
+        "timestamp": "2026-08-12T11:59:56.964224Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #25 (beatae architecto ad)' has been created successfully.",
+        "timestamp": "2026-08-12T12:03:41.647065Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "beatae architecto ad",
+        "message": "Stock Product with Type \"Masuk\" created successfully",
+        "timestamp": "2026-08-12T12:03:41.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #25 (beatae architecto ad)' has been updated successfully.",
+        "timestamp": "2026-08-12T12:03:55.272438Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #25 (beatae architecto ad)' has been updated successfully.",
+        "timestamp": "2026-08-12T12:04:00.374330Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #25 (beatae architecto ad)' has been updated successfully.",
+        "timestamp": "2026-08-12T12:04:05.421782Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #26 (yuiyuii)",
+        "message": "StockTransaction 'Transaction #26 (yuiyuii)' has been created successfully.",
+        "timestamp": "2026-08-12T12:07:50.867276Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "yuiyuii",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-12T12:07:50.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #26 (odio provident culpa)",
+        "message": "StockTransaction 'Transaction #26 (odio provident culpa)' has been updated successfully.",
+        "timestamp": "2026-08-12T12:08:37.141607Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "odio provident culpa",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-12T12:08:37.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "Stock_Transaction",
+        "entity_name": "odio provident culpa",
+        "message": "Stock Product with Type \"Masuk\" deleted successfully",
+        "timestamp": "2026-08-12T12:08:44.988747Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "delete",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #26 (odio provident culpa)",
+        "message": "StockTransaction 'Transaction #26 (odio provident culpa)' has been deleted successfully.",
+        "timestamp": "2026-08-12T12:08:44.998407Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (beatae architecto ad)",
+        "message": "StockTransaction 'Transaction #25 (beatae architecto ad)' has been updated successfully.",
+        "timestamp": "2026-08-12T12:09:04.156317Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "beatae architecto ad",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-12T12:09:04.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #27 (recusandae recusandae commodi)",
+        "message": "StockTransaction 'Transaction #27 (recusandae recusandae commodi)' has been created successfully.",
+        "timestamp": "2026-08-12T12:28:28.002253Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "recusandae recusandae commodi",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-12T12:28:27.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #28 (fugit et sit)",
+        "message": "StockTransaction 'Transaction #28 (fugit et sit)' has been created successfully.",
+        "timestamp": "2026-08-12T12:30:25.812026Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "fugit et sit",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-12T12:30:25.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #28 (fugit et sit)",
+        "message": "StockTransaction 'Transaction #28 (fugit et sit)' has been updated successfully.",
+        "timestamp": "2026-08-12T12:30:47.462834Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "bjj",
+        "message": "Product 'bjj' has been created successfully.",
+        "timestamp": "2026-08-13T01:39:35.200120Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "bjj",
+        "message": "Product has been created successfully",
+        "timestamp": "2026-08-13T01:39:35.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "bjj",
+        "message": "Product 'bjj' has been updated successfully.",
+        "timestamp": "2026-08-13T01:39:51.214989Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product",
+        "entity_name": "bjj",
+        "message": "Product has been updated successfully",
+        "timestamp": "2026-08-13T01:39:51.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "Peralatan Bayi",
+        "message": "Category 'Peralatan Bayi' has been created successfully.",
+        "timestamp": "2026-08-13T01:40:13.924756Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Categories",
+        "entity_name": "Peralatan Bayi",
+        "message": "Categories has been created successfuly",
+        "timestamp": "2026-08-13T01:40:13.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Category",
+        "entity_name": "Peralatan Bayi",
+        "message": "Category 'Peralatan Bayi' has been updated successfully.",
+        "timestamp": "2026-08-13T01:40:25.302128Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Categories",
+        "entity_name": "Peralatan Bayi",
+        "message": "Categories has been updated successfuly",
+        "timestamp": "2026-08-13T01:40:25.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Categories",
+        "entity_name": "Peralatan Bayi",
+        "message": "Categories has been deleted successfuly",
+        "timestamp": "2026-08-13T01:40:30.865013Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Category",
+        "entity_name": "Peralatan Bayi",
+        "message": "Category 'Peralatan Bayi' has been deleted successfully.",
+        "timestamp": "2026-08-13T01:40:30.871503Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "ProductAttribute",
+        "entity_name": "warna",
+        "message": "ProductAttribute 'warna' has been created successfully.",
+        "timestamp": "2026-08-13T01:40:45.486535Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product Attribute",
+        "entity_name": "warna",
+        "message": "Product Attribute has been created successfully",
+        "timestamp": "2026-08-13T01:40:45.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "ProductAttribute",
+        "entity_name": "iuih",
+        "message": "ProductAttribute 'iuih' has been updated successfully.",
+        "timestamp": "2026-08-13T01:41:08.770158Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product Attribute",
+        "entity_name": "iuih",
+        "message": "Product Attribute has been updated successfully",
+        "timestamp": "2026-08-13T01:41:08.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Product Attribute",
+        "entity_name": "iuih",
+        "message": "Product Attribute has been deleted successfully",
+        "timestamp": "2026-08-13T01:41:13.465494Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "ProductAttribute",
+        "entity_name": "iuih",
+        "message": "ProductAttribute 'iuih' has been deleted successfully.",
+        "timestamp": "2026-08-13T01:41:13.473535Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #9 (tempore in odit)",
+        "message": "StockTransaction 'Transaction #9 (tempore in odit)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.434576Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "tempore in odit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #14 (illum adipisci aliquam)",
+        "message": "StockTransaction 'Transaction #14 (illum adipisci aliquam)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.465584Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "illum adipisci aliquam",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #6 (voluptate illum aut)",
+        "message": "StockTransaction 'Transaction #6 (voluptate illum aut)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.500186Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptate illum aut",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #4 (qui autem natus)",
+        "message": "StockTransaction 'Transaction #4 (qui autem natus)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.537698Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "qui autem natus",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #18 (tempore accusamus commodi)",
+        "message": "StockTransaction 'Transaction #18 (tempore accusamus commodi)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.572308Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "tempore accusamus commodi",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #3 (qui autem natus)",
+        "message": "StockTransaction 'Transaction #3 (qui autem natus)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.609774Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "qui autem natus",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #17 (tempore accusamus commodi)",
+        "message": "StockTransaction 'Transaction #17 (tempore accusamus commodi)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.645711Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "tempore accusamus commodi",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #7 (voluptatem eaque aut)",
+        "message": "StockTransaction 'Transaction #7 (voluptatem eaque aut)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.680235Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptatem eaque aut",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #22 (ipsa ut quae)",
+        "message": "StockTransaction 'Transaction #22 (ipsa ut quae)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.714692Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ipsa ut quae",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #20 (rerum ullam qui)",
+        "message": "StockTransaction 'Transaction #20 (rerum ullam qui)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.751660Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "rerum ullam qui",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #16 (nihil doloribus necessitatibus)",
+        "message": "StockTransaction 'Transaction #16 (nihil doloribus necessitatibus)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.785707Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "nihil doloribus necessitatibus",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #2 (culpa qui ad)",
+        "message": "StockTransaction 'Transaction #2 (culpa qui ad)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.820284Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "culpa qui ad",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #8 (voluptatem eaque aut)",
+        "message": "StockTransaction 'Transaction #8 (voluptatem eaque aut)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.856082Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptatem eaque aut",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #24 (libero asperiores est)",
+        "message": "StockTransaction 'Transaction #24 (libero asperiores est)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.889854Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "libero asperiores est",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #23 (libero asperiores est)",
+        "message": "StockTransaction 'Transaction #23 (libero asperiores est)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.924940Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "libero asperiores est",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #21 (ipsa ut quae)",
+        "message": "StockTransaction 'Transaction #21 (ipsa ut quae)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.961996Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "ipsa ut quae",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #19 (rerum ullam qui)",
+        "message": "StockTransaction 'Transaction #19 (rerum ullam qui)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:40.997596Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "rerum ullam qui",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:40.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #5 (voluptate illum aut)",
+        "message": "StockTransaction 'Transaction #5 (voluptate illum aut)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:41.028187Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "voluptate illum aut",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:41.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #13 (illum adipisci aliquam)",
+        "message": "StockTransaction 'Transaction #13 (illum adipisci aliquam)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:41.064354Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "illum adipisci aliquam",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:41.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #11 (asperiores omnis culpa)",
+        "message": "StockTransaction 'Transaction #11 (asperiores omnis culpa)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:41.100026Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "asperiores omnis culpa",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:41.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #15 (nihil doloribus necessitatibus)",
+        "message": "StockTransaction 'Transaction #15 (nihil doloribus necessitatibus)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:41.133883Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "nihil doloribus necessitatibus",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:41.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #10 (tempore in odit)",
+        "message": "StockTransaction 'Transaction #10 (tempore in odit)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:41.167780Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "tempore in odit",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:41.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #1 (culpa qui ad)",
+        "message": "StockTransaction 'Transaction #1 (culpa qui ad)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:41.203348Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "culpa qui ad",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T01:46:41.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #12 (asperiores omnis culpa)",
+        "message": "StockTransaction 'Transaction #12 (asperiores omnis culpa)' has been updated successfully.",
+        "timestamp": "2026-08-13T01:46:41.235175Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "asperiores omnis culpa",
+        "message": "Stock Product with Type Keluar updated successfully",
+        "timestamp": "2026-08-13T01:46:41.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been created successfully.",
+        "timestamp": "2026-08-13T01:48:19.620700Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier created successfully",
+        "timestamp": "2026-08-13T01:48:19.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "uhuy",
+        "message": "Supplier 'uhuy' has been updated successfully.",
+        "timestamp": "2026-08-13T01:48:38.315480Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "uhuy",
+        "message": "Supplier has been updated successfully",
+        "timestamp": "2026-08-13T01:48:38.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uhuy",
+        "message": "Supplier has been deleted successfully",
+        "timestamp": "2026-08-13T01:48:46.901711Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uhuy",
+        "message": "Supplier 'uhuy' has been deleted successfully.",
+        "timestamp": "2026-08-13T01:48:46.908689Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "User",
+        "entity_name": "dcthgfj",
+        "message": "User has been created successfully",
+        "timestamp": "2026-08-13T01:49:25.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "User",
+        "entity_name": "dcthgfj",
+        "message": "User has been updated successfully",
+        "timestamp": "2026-08-13T01:49:38.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "gugioiohiooi",
+        "message": "Category 'gugioiohiooi' has been created successfully.",
+        "timestamp": "2026-08-13T02:19:15.190656Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "iuiuiuhuihu",
+        "message": "Supplier 'iuiuiuhuihu' has been created successfully.",
+        "timestamp": "2026-08-13T02:19:15.201904Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "kjhkjhkjhkjhjkh",
+        "message": "Product 'kjhkjhkjhkjhjkh' has been created successfully.",
+        "timestamp": "2026-08-13T02:19:15.215791Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "kjhkjhkjhkjhjkh",
+        "message": "Product has been created successfully",
+        "timestamp": "2026-08-13T02:19:15.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Product 'Aqua Google TV AQT55K800UX' has been created successfully.",
+        "timestamp": "2026-08-13T02:24:53.414944Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Product has been created successfully",
+        "timestamp": "2026-08-13T02:24:53.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Category",
+        "entity_name": "rasah",
+        "message": "Category 'rasah' has been created successfully.",
+        "timestamp": "2026-08-13T02:25:28.340176Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Categories",
+        "entity_name": "rasah",
+        "message": "Categories has been created successfuly",
+        "timestamp": "2026-08-13T02:25:28.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Category",
+        "entity_name": "rasah",
+        "message": "Category 'rasah' has been updated successfully.",
+        "timestamp": "2026-08-13T02:25:36.258596Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Categories",
+        "entity_name": "rasah",
+        "message": "Categories has been updated successfuly",
+        "timestamp": "2026-08-13T02:25:36.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Categories",
+        "entity_name": "rasah",
+        "message": "Categories has been deleted successfuly",
+        "timestamp": "2026-08-13T02:25:41.222842Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Category",
+        "entity_name": "rasah",
+        "message": "Category 'rasah' has been deleted successfully.",
+        "timestamp": "2026-08-13T02:25:41.255566Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "ProductAttribute",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "ProductAttribute 'Aqua Google TV AQT55K800UX' has been created successfully.",
+        "timestamp": "2026-08-13T02:25:58.953106Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Product Attribute",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Product Attribute has been created successfully",
+        "timestamp": "2026-08-13T02:25:58.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Product Attribute",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Product Attribute has been deleted successfully",
+        "timestamp": "2026-08-13T02:26:04.140181Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "ProductAttribute",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "ProductAttribute 'Aqua Google TV AQT55K800UX' has been deleted successfully.",
+        "timestamp": "2026-08-13T02:26:04.149793Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "ProductAttribute",
+        "entity_name": "\\rehan",
+        "message": "ProductAttribute '\\rehan' has been updated successfully.",
+        "timestamp": "2026-08-13T02:26:13.955096Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Product Attribute",
+        "entity_name": "\\rehan",
+        "message": "Product Attribute has been updated successfully",
+        "timestamp": "2026-08-13T02:26:13.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #9 (tempore in odit)",
+        "message": "StockTransaction 'Transaction #9 (tempore in odit)' has been updated successfully.",
+        "timestamp": "2026-08-13T02:27:17.357352Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "tempore in odit",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T02:27:17.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been created successfully.",
+        "timestamp": "2026-08-13T02:27:28.035758Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier created successfully",
+        "timestamp": "2026-08-13T02:27:28.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been updated successfully.",
+        "timestamp": "2026-08-13T02:27:44.317141Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier has been updated successfully",
+        "timestamp": "2026-08-13T02:27:44.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "User",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "User has been created successfully",
+        "timestamp": "2026-08-13T02:28:11.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier has been deleted successfully",
+        "timestamp": "2026-08-13T02:41:22.467967Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been deleted successfully.",
+        "timestamp": "2026-08-13T02:41:22.474428Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been created successfully.",
+        "timestamp": "2026-08-13T02:41:26.805130Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier created successfully",
+        "timestamp": "2026-08-13T02:41:26.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "iuiuiuhuihu",
+        "message": "Supplier has been deleted successfully",
+        "timestamp": "2026-08-13T02:41:37.806270Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "iuiuiuhuihu",
+        "message": "Supplier 'iuiuiuhuihu' has been deleted successfully.",
+        "timestamp": "2026-08-13T02:41:37.813044Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "User",
+        "entity_name": "Laptop",
+        "message": "User has been created successfully",
+        "timestamp": "2026-08-13T02:47:02.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier has been deleted successfully",
+        "timestamp": "2026-08-13T02:47:14.633463Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "delete",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been deleted successfully.",
+        "timestamp": "2026-08-13T02:47:14.638978Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier 'uygjhkj' has been created successfully.",
+        "timestamp": "2026-08-13T02:47:18.863216Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "uygjhkj",
+        "message": "Supplier created successfully",
+        "timestamp": "2026-08-13T02:47:18.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "User",
+        "entity_name": "nb nm",
+        "message": "User has been created successfully",
+        "timestamp": "2026-08-13T02:47:50.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "aku",
+        "message": "Supplier 'aku' has been created successfully.",
+        "timestamp": "2026-08-13T02:49:30.327779Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "create",
+        "entity": "Supplier",
+        "entity_name": "aku",
+        "message": "Supplier created successfully",
+        "timestamp": "2026-08-13T02:49:30.000000Z"
+    },
+    {
+        "user_id": "Admin Stockify",
+        "action": "update",
+        "entity": "User",
+        "entity_name": "gfg",
+        "message": "User has been updated successfully",
+        "timestamp": "2026-08-13T02:56:57.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "okwowkowkw",
+        "message": "Product 'okwowkowkw' has been created successfully.",
+        "timestamp": "2026-08-13T03:01:29.934161Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "Product",
+        "entity_name": "okwowkowkw",
+        "message": "Product has been created successfully",
+        "timestamp": "2026-08-13T03:01:29.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #25 (illum adipisci aliquam)",
+        "message": "StockTransaction 'Transaction #25 (illum adipisci aliquam)' has been created successfully.",
+        "timestamp": "2026-08-13T03:02:58.933065Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "illum adipisci aliquam",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-13T03:02:58.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #26 (ipsa ut quae)",
+        "message": "StockTransaction 'Transaction #26 (ipsa ut quae)' has been created successfully.",
+        "timestamp": "2026-08-13T03:14:21.919194Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "ipsa ut quae",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-13T03:14:21.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #27 (illum adipisci aliquam)",
+        "message": "StockTransaction 'Transaction #27 (illum adipisci aliquam)' has been created successfully.",
+        "timestamp": "2026-08-13T03:20:09.178235Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "illum adipisci aliquam",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-13T03:20:09.000000Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #27 (illum adipisci aliquam)",
+        "message": "StockTransaction 'Transaction #27 (illum adipisci aliquam)' has been updated successfully.",
+        "timestamp": "2026-08-13T03:20:38.069242Z"
+    },
+    {
+        "user_id": "Manajer Gudang",
+        "action": "update",
+        "entity": "Stock_Transaction",
+        "entity_name": "illum adipisci aliquam",
+        "message": "Stock Product with Type Masuk updated successfully",
+        "timestamp": "2026-08-13T03:20:38.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #28 (tempore in odit)",
+        "message": "StockTransaction 'Transaction #28 (tempore in odit)' has been created successfully.",
+        "timestamp": "2026-08-13T03:24:23.799362Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "tempore in odit",
+        "message": "Stock Product with Type \"Masuk\" created successfully",
+        "timestamp": "2026-08-13T03:24:23.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #29 (tempore accusamus commodi)",
+        "message": "StockTransaction 'Transaction #29 (tempore accusamus commodi)' has been created successfully.",
+        "timestamp": "2026-08-13T03:24:56.862110Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "tempore accusamus commodi",
+        "message": "Stock Product with Type \"Masuk\" created successfully",
+        "timestamp": "2026-08-13T03:24:56.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #30 (rerum ullam qui)",
+        "message": "StockTransaction 'Transaction #30 (rerum ullam qui)' has been created successfully.",
+        "timestamp": "2026-08-13T03:29:11.239899Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "rerum ullam qui",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-13T03:29:11.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #31 (Aqua Google TV AQT55K800UX)",
+        "message": "StockTransaction 'Transaction #31 (Aqua Google TV AQT55K800UX)' has been created successfully.",
+        "timestamp": "2026-08-13T03:29:43.700608Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "create",
+        "entity": "Stock_Transaction",
+        "entity_name": "Aqua Google TV AQT55K800UX",
+        "message": "Stock Product with Type \"Keluar\" created successfully",
+        "timestamp": "2026-08-13T03:29:43.000000Z"
+    },
+    {
+        "user_id": "Staff Gudang",
+        "action": "update",
+        "entity": "StockTransaction",
+        "entity_name": "Transaction #31 (Aqua Google TV AQT55K800UX)",
+        "message": "StockTransaction 'Transaction #31 (Aqua Google TV AQT55K800UX)' has been updated successfully.",
+        "timestamp": "2026-08-13T03:31:12.959907Z"
+    }
+]

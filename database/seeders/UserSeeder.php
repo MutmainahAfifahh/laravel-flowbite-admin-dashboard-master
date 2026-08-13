@@ -10,40 +10,43 @@ class UserSeeder extends Seeder
 {
     public function run(): void
     {
-        User::firstOrCreate(
-            ['email' => 'admin@stockify.com'],
+        $users = [
             [
-                'name' => 'Admin Stockify',
-                'role' => 'Admin',
+                'email' => 'admin@stockify.com',
+                'name'  => 'Admin Stockify',
+                'role'  => 'Admin',
                 'password' => Hash::make('password'),
-            ]
-        );
-
-        User::firstOrCreate(
-            ['email' => 'manajer@stockify.com'],
+            ],
             [
-                'name' => 'Manajer Gudang',
-                'role' => 'Manajer Gudang',
+                'email' => 'manajer@stockify.com',
+                'name'  => 'Manajer Gudang',
+                'role'  => 'Manajer Gudang',
                 'password' => Hash::make('password'),
-            ]
-        );
-
-        User::firstOrCreate(
-            ['email' => 'staff@stockify.com'],
+            ],
             [
-                'name' => 'Staff Gudang',
-                'role' => 'Staff Gudang',
+                'email' => 'staff@stockify.com',
+                'name'  => 'Staff Gudang',
+                'role'  => 'Staff Gudang',
                 'password' => Hash::make('password'),
-            ]
-        );
-
-        User::firstOrCreate(
-            ['email' => 'admin@gmail.com'],
+            ],
             [
-                'name' => 'Admin Stockify (Gmail)',
-                'role' => 'Admin',
+                'email' => 'admin@gmail.com',
+                'name'  => 'Admin Stockify (Gmail)',
+                'role'  => 'Admin',
                 'password' => Hash::make('password123'),
-            ]
-        );
+            ],
+        ];
+
+        foreach ($users as $userData) {
+            User::updateOrCreate(
+                ['email' => $userData['email']],
+                [
+                    'name'              => $userData['name'],
+                    'role'              => $userData['role'],
+                    'password'          => $userData['password'],
+                    'email_verified_at' => now(),
+                ]
+            );
+        }
     }
 }

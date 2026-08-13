@@ -78,12 +78,12 @@ class StockTransactionServiceImplement extends Service implements StockTransacti
 
     public function generatePdfByType($type)
     {
-        return true;
+        return $this->mainRepository->filterByTypeNoPaginate($type);
     }
 
     public function generatePdfByCriteria($criteria, $all = null)
     {
-        return true;
+        return $this->mainRepository->filterByCriteriaNoPaginate($criteria);
     }
 
     public function getMinimumQuantityStock()

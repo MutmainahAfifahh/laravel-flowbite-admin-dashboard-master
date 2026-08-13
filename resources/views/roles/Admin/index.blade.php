@@ -1,107 +1,70 @@
 @extends('layouts.dashboard')
 
 @section('content')
-<div class="px-4 pt-6">
-    <div class="mb-4">
-        <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Dashboard Admin</h1>
-        <p class="text-sm text-gray-500 dark:text-gray-400">Ringkasan informasi produk, statistik transaksi, dan aktivitas sistem terbaru.</p>
+<div class="p-4 sm:p-6 bg-gray-50 dark:bg-gray-800 min-h-screen">
+
+    {{-- Page Header --}}
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Dashboard Admin</h1>
+
+    {{-- 4 Stat Cards --}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 mb-6">
+
+        {{-- Jumlah Produk --}}
+        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-5 shadow-sm">
+            <div class="flex items-start justify-between mb-4">
+                <p class="text-blue-600 dark:text-blue-400 font-bold text-base">Jumlah Produk</p>
+                <svg class="w-6 h-6 text-blue-600 dark:text-blue-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                </svg>
+            </div>
+            <p class="text-4xl font-extrabold text-gray-900 dark:text-white mb-2">{{ $totalProducts ?? 0 }}</p>
+            <p class="text-sm font-medium text-gray-600 dark:text-gray-300">Total produk dalam inventaris</p>
+        </div>
+
+        {{-- Total Stok Rendah --}}
+        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-5 shadow-sm">
+            <div class="flex items-start justify-between mb-4">
+                <p class="text-red-600 dark:text-red-400 font-bold text-base">Total Stok Rendah</p>
+                <svg class="w-6 h-6 text-red-600 dark:text-red-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                </svg>
+            </div>
+            <p class="text-4xl font-extrabold text-red-600 dark:text-red-400 mb-2">{{ $totalLowStock ?? 0 }}</p>
+            <p class="text-sm font-medium text-gray-600 dark:text-gray-300">Produk perlu diisi ulang</p>
+        </div>
+
+        {{-- Transaksi Masuk --}}
+        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-5 shadow-sm">
+            <div class="flex items-start justify-between mb-4">
+                <p class="text-yellow-600 dark:text-yellow-400 font-bold text-base">Transaksi Masuk</p>
+                <svg class="w-6 h-6 text-yellow-600 dark:text-yellow-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 4h13M3 8h9m-9 4h9m5 4v-12m0 0l-4 4m4-4l4 4"/>
+                </svg>
+            </div>
+            <p class="text-4xl font-extrabold text-yellow-600 dark:text-yellow-400 mb-2">{{ $incomingTransaction ?? 0 }}</p>
+            <p class="text-sm font-medium text-gray-600 dark:text-gray-300">Dalam 30 hari terakhir</p>
+        </div>
+
+        {{-- Transaksi Keluar --}}
+        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-5 shadow-sm">
+            <div class="flex items-start justify-between mb-4">
+                <p class="text-amber-700 dark:text-amber-400 font-bold text-base">Transaksi Keluar</p>
+                <svg class="w-6 h-6 text-amber-700 dark:text-amber-400" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4"/>
+                </svg>
+            </div>
+            <p class="text-4xl font-extrabold text-amber-700 dark:text-amber-400 mb-2">{{ $outgoingTransaction ?? 0 }}</p>
+            <p class="text-sm font-medium text-gray-600 dark:text-gray-300">Dalam 30 hari terakhir</p>
+        </div>
+
     </div>
 
-    <!-- Ringkasan Statistik Cards -->
-    <div class="grid w-full grid-cols-1 gap-4 mt-4 sm:grid-cols-2 lg:grid-cols-4">
-        <!-- 1. Total Produk -->
-        <div class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 dark:bg-gray-800">
-            <div>
-                <span class="text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">Total Produk</span>
-                <h3 class="text-2xl font-bold text-gray-900 dark:text-white">{{ $totalProducts ?? 0 }}</h3>
-                <span class="text-xs text-green-500">Terdaftar di sistem</span>
-            </div>
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900 dark:text-blue-300 text-xl">
-                📦
-            </div>
-        </div>
-
-        <!-- 2. Transaksi Masuk (30 Hari) -->
-        <div class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 dark:bg-gray-800">
-            <div>
-                <span class="text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">Barang Masuk (30 Hari)</span>
-                <h3 class="text-2xl font-bold text-green-600 dark:text-green-400">{{ $incomingTransaction ?? 0 }}</h3>
-                <span class="text-xs text-gray-500">Penerimaan stok</span>
-            </div>
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-green-100 text-green-600 dark:bg-green-900 dark:text-green-300 text-xl">
-                📥
-            </div>
-        </div>
-
-        <!-- 3. Transaksi Keluar (30 Hari) -->
-        <div class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 dark:bg-gray-800">
-            <div>
-                <span class="text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">Barang Keluar (30 Hari)</span>
-                <h3 class="text-2xl font-bold text-red-600 dark:text-red-400">{{ $outgoingTransaction ?? 0 }}</h3>
-                <span class="text-xs text-gray-500">Pengeluaran stok</span>
-            </div>
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-300 text-xl">
-                📤
-            </div>
-        </div>
-
-        <!-- 4. Stok Menipis -->
-        <div class="items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:flex dark:border-gray-700 dark:bg-gray-800">
-            <div>
-                <span class="text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">Stok Menipis</span>
-                <h3 class="text-2xl font-bold text-yellow-600 dark:text-yellow-400">{{ $totalLowStock ?? 0 }}</h3>
-                <span class="text-xs text-yellow-500">Perlu re-stock</span>
-            </div>
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-yellow-100 text-yellow-600 dark:bg-yellow-900 dark:text-yellow-300 text-xl">
-                ⚠️
-            </div>
-        </div>
-    </div>
-
-    <!-- Section Grafik & Visualisasi -->
-    <div class="grid grid-cols-1 gap-4 mt-6 lg:grid-cols-3">
-        <!-- Grafik Transaksi (Visual Chart Canvas) -->
-        <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm lg:col-span-2 dark:border-gray-700 dark:bg-gray-800">
-            <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-bold text-gray-900 dark:text-white">Grafik Transaksi Stok</h3>
-                <span class="text-xs text-gray-500 dark:text-gray-400">Perbandingan per bulan</span>
-            </div>
-            <div class="relative h-64 flex items-end justify-around border-b border-gray-200 dark:border-gray-700 pb-2 pt-6">
-                <!-- Bar chart visualizer -->
-                @forelse($transactionData ?? [] as $data)
-                    <div class="flex flex-col items-center gap-1 group">
-                        <div class="text-xs font-semibold text-blue-600 dark:text-blue-400 mb-1 opacity-0 group-hover:opacity-100 transition">{{ $data->total_quantity }}</div>
-                        <div class="w-12 bg-blue-500 rounded-t hover:bg-blue-600 transition" style="height: {{ min(200, max(20, $data->total_quantity * 4)) }}px;"></div>
-                        <span class="text-xs text-gray-500 dark:text-gray-400">Bln {{ $data->month }}/{{ $data->year }}</span>
-                    </div>
-                @empty
-                    <div class="flex items-center justify-center w-full h-full text-gray-400 text-sm">
-                        Belum ada data grafik transaksi.
-                    </div>
-                @endforelse
-            </div>
-        </div>
-
-        <!-- Info Cepat & Akses Fitur Admin -->
-        <div class="p-4 bg-white border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 dark:bg-gray-800">
-            <h3 class="mb-4 text-lg font-bold text-gray-900 dark:text-white">Akses Cepat Admin</h3>
-            <div class="space-y-3">
-                <a href="{{ route('products.index') }}" class="flex items-center p-3 text-sm font-semibold text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700 dark:text-white hover:bg-blue-50 dark:hover:bg-gray-600">
-                    <span class="mr-3">📦</span> Kelola Data Produk
-                </a>
-                <a href="{{ route('categories.index') }}" class="flex items-center p-3 text-sm font-semibold text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700 dark:text-white hover:bg-blue-50 dark:hover:bg-gray-600">
-                    <span class="mr-3">🏷️</span> Kelola Kategori Produk
-                </a>
-                <a href="{{ route('suppliers.index') }}" class="flex items-center p-3 text-sm font-semibold text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700 dark:text-white hover:bg-blue-50 dark:hover:bg-gray-600">
-                    <span class="mr-3">🏢</span> Kelola Supplier
-                </a>
-                <a href="{{ route('users.index') }}" class="flex items-center p-3 text-sm font-semibold text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700 dark:text-white hover:bg-blue-50 dark:hover:bg-gray-600">
-                    <span class="mr-3">👥</span> Manajemen Hak Akses Pengguna
-                </a>
-                <a href="{{ route('transactions.history') }}" class="flex items-center p-3 text-sm font-semibold text-gray-900 rounded-lg bg-gray-50 dark:bg-gray-700 dark:text-white hover:bg-blue-50 dark:hover:bg-gray-600">
-                    <span class="mr-3">📜</span> Riwayat Transaksi Barang
-                </a>
-            </div>
+    {{-- Chart Section --}}
+    <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-xl p-6 mb-6 shadow-sm">
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white mb-1">Grafik Stok Barang</h2>
+        <p class="text-sm font-medium text-gray-600 dark:text-gray-300 mb-5">Jumlah quantity transaksi masuk & keluar per bulan (6 bulan terakhir)</p>
+        <div class="relative h-72">
+            <canvas id="stockChart"></canvas>
         </div>
     </div>
 
@@ -124,15 +87,15 @@
                     @forelse($activities ?? [] as $index => $act)
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                             <td class="px-4 py-3 text-center font-medium text-gray-900 dark:text-white">{{ $index + 1 }}</td>
-                            <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">{{ $act->user->name ?? 'Sistem' }}</td>
+                            <td class="px-4 py-3 font-semibold text-gray-900 dark:text-white">{{ $act['user_id'] ?? 'Sistem' }}</td>
                             <td class="px-4 py-3">
                                 <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                                    {{ $act->action ?? 'LOG' }}
+                                    {{ $act['action'] ?? 'LOG' }}
                                 </span>
                             </td>
-                            <td class="px-4 py-3 text-xs">{{ $act->model_type ?? '-' }}</td>
-                            <td class="px-4 py-3 text-xs text-gray-700 dark:text-gray-300">{{ $act->description ?? '-' }}</td>
-                            <td class="px-4 py-3 text-xs whitespace-nowrap">{{ \Carbon\Carbon::parse($act->created_at ?? now())->diffForHumans() }}</td>
+                            <td class="px-4 py-3 text-xs text-gray-900 dark:text-white">{{ $act['entity'] ?? '-' }}</td>
+                            <td class="px-4 py-3 text-xs text-gray-700 dark:text-white">{{ $act['message'] ?? '-' }}</td>
+                            <td class="px-4 py-3 text-xs text-gray-900 dark:text-white whitespace-nowrap">{{ \Carbon\Carbon::parse($act['timestamp'] ?? now())->diffForHumans() }}</td>
                         </tr>
                     @empty
                         <tr>
@@ -144,4 +107,95 @@
         </div>
     </div>
 </div>
+
+{{-- Chart.js CDN --}}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const canvas = document.getElementById('stockChart');
+        if (!canvas) return;
+
+        const ctx = canvas.getContext('2d');
+        const labels = @json($chartLabels ?? []);
+        const masukData  = @json($chartMasuk ?? []);
+        const keluarData = @json($chartKeluar ?? []);
+
+        const isDark = document.documentElement.classList.contains('dark');
+        const textColor = isDark ? '#f3f4f6' : '#4b5563';
+        const gridColor = isDark ? 'rgba(255, 255, 255, 0.1)' : 'rgba(107, 114, 128, 0.15)';
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Stock Barang Masuk',
+                        data: masukData,
+                        borderColor: '#38bdf8',
+                        backgroundColor: 'rgba(56, 189, 248, 0.15)',
+                        borderWidth: 2.5,
+                        pointBackgroundColor: '#38bdf8',
+                        pointHoverRadius: 6,
+                        pointRadius: 4,
+                        tension: 0.35,
+                        fill: true,
+                    },
+                    {
+                        label: 'Stock Barang Keluar',
+                        data: keluarData,
+                        borderColor: '#f87171',
+                        backgroundColor: 'rgba(248, 113, 113, 0.15)',
+                        borderWidth: 2.5,
+                        pointBackgroundColor: '#f87171',
+                        pointHoverRadius: 6,
+                        pointRadius: 4,
+                        tension: 0.35,
+                        fill: true,
+                    },
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { mode: 'index', intersect: false },
+                plugins: {
+                    legend: {
+                        position: 'top',
+                        labels: {
+                            color: textColor,
+                            usePointStyle: true,
+                            pointStyleWidth: 10,
+                            font: { size: 12, weight: '600' }
+                        }
+                    },
+                    tooltip: {
+                        padding: 10,
+                        backgroundColor: isDark ? '#1f2937' : '#ffffff',
+                        titleColor: isDark ? '#ffffff' : '#111827',
+                        bodyColor: isDark ? '#d1d5db' : '#374151',
+                        borderColor: isDark ? '#374151' : '#e5e7eb',
+                        borderWidth: 1,
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: { color: gridColor },
+                        ticks: { color: textColor, font: { size: 11, weight: '500' } }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: gridColor },
+                        ticks: { 
+                            color: textColor, 
+                            font: { size: 11, weight: '500' },
+                            stepSize: 1,
+                            precision: 0
+                        }
+                    }
+                }
+            }
+        });
+    });
+</script>
 @endsection

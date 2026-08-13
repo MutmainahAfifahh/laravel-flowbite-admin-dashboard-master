@@ -17,6 +17,15 @@ class SupplierController extends Controller
     public function index()
     {
         $suppliers = $this->supplierService->getAllSuppliers();
+
+        $userRole = strtolower(trim(auth()->user()->role ?? ''));
+
+        // Manajer Gudang mendapat view khusus
+        if (in_array($userRole, ['manajer gudang', 'manajer_gudang', 'manajer'])) {
+            return view('roles.Manajer-Gudang.supplier.index', compact('suppliers'))
+                ->with('title', 'Daftar Supplier');
+        }
+
         return view('roles.Admin.Suppliers.index', compact('suppliers'));
     }
 
@@ -36,9 +45,9 @@ class SupplierController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required|string|max:255',
-            'address' => 'nullable|string',
-            'phone' => 'nullable|string|max:20',
-            'email' => 'nullable|email|max:255',
+            'address' => 'required|string',
+            'phone' => 'required|string|max:20',
+            'email' => 'required|email|max:255',
         ]);
 
         $this->supplierService->createSupplier($validated);

@@ -25,8 +25,8 @@ class SupplierFactory extends Factory
                 'CV Sumber Makmur Jaya',
                 'PT Global Niaga Sejahtera'
             ]);
-        } catch (\OverflowException $e) {
-            $name = 'PT ' . fake()->unique()->company();
+        } catch (\Throwable $e) {
+            $name = 'PT ' . fake()->company();
         }
 
         return [

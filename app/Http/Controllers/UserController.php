@@ -34,7 +34,8 @@ class UserController extends Controller
 
     public function store(Request $request) {
         $data = $request->validate($this->userValidation());
-        $validatedData['password'] = Hash::make($data['password']);
+        $data['password'] = Hash::make($data['password']);
+        $data['email_verified_at'] = now();
 
         $this->userService->createUser($data);
 

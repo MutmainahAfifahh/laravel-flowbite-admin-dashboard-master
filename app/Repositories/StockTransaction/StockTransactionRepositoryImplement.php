@@ -24,7 +24,7 @@ class StockTransactionRepositoryImplement extends Eloquent implements StockTrans
     }
 
     public function all() {
-        return $this->model->with(['product', 'user'])->latest('date')->latest('id')->get();
+        return $this->model->with(['product', 'user', 'supplier'])->latest()->get();
     }
 
     public function allPaginate() {
@@ -32,7 +32,7 @@ class StockTransactionRepositoryImplement extends Eloquent implements StockTrans
     }
 
     public function allNoPaginate() {
-        return $this->model->with(['product', 'user'])->get();
+        return $this->model->with(['product', 'user', 'supplier'])->latest()->get();
     }
 
     public function find($id) {
@@ -119,7 +119,16 @@ class StockTransactionRepositoryImplement extends Eloquent implements StockTrans
         if($type) {
             $query->where('type', $type);
         }
-        return $query->with(['product', 'user'])->simplePaginate(5);
+        return $query->with(['product', 'user', 'supplier'])->get();
+    }
+
+    public function filterByTypeNoPaginate($type) {
+        $query = $this->model->query();
+
+        if($type) {
+            $query->where('type', $type);
+        }
+        return $query->with(['product', 'user', 'supplier'])->get();
     }
 
     public function filterByCriteria($criteria) {
@@ -166,11 +175,58 @@ class StockTransactionRepositoryImplement extends Eloquent implements StockTrans
             }
         }
 
-        return $query->with(['product', 'user'])->simplePaginate(5);
+        return $query->with(['product', 'user', 'supplier'])->get();
+    }
+
+    public function filterByCriteriaNoPaginate($criteria) {
+        $query = $this->model->query();
+
+        // By Period Date
+        if(!empty($criteria['periods'])) {
+            $startDate = null;
+            $endDate = null;
+
+            switch($criteria['periods']) {
+                case '7 Days':
+                    $startDate = now()->subDays(7);
+                    $endDate = now();
+                    break;
+                case '30 Days':
+                    $startDate = now()->subDays(30);
+                    $endDate = now();
+                    break;
+                case '3 Month':
+                    $startDate = now()->subMonths(3);
+                    $endDate = now();
+                    break;
+                case 'custom':
+                    if(!empty($criteria['start_date']) && !empty($criteria['end_date'])) {
+                        $startDate = \Carbon\Carbon::parse($criteria['start_date'])->startOfDay();
+                        $endDate = \Carbon\Carbon::parse($criteria['end_date'])->endOfDay();
+                    }
+                    break;
+            }
+            
+            if ($startDate && $endDate) {
+                $query->whereBetween('date', [$startDate, $endDate]);
+            }
+        }
+
+        // By Product Category
+        if(!empty($criteria['categories'])) {
+            $category = \App\Models\Category::find($criteria['categories']);
+            if($category) {
+                $query->whereHas('product', function($query) use ($criteria) {
+                    $query->where('category_id', $criteria['categories']);
+                });
+            }
+        }
+
+        return $query->with(['product', 'user', 'supplier'])->get();
     }
 
     public function getMinimumStock() {
-        return config('stock.minimum_stock', 5);
+        return config('stock.minimum_stock', 0);
     }
 
     public function updateMinimumStock($minQuantity) {
@@ -197,7 +253,7 @@ class StockTransactionRepositoryImplement extends Eloquent implements StockTrans
 
         return $this->model
             ->where('type', $type)
-            ->whereBetween('date', [$startDate, $endDate])
+            ->whereBetween('created_at', [$startDate, $endDate])
             ->count();
     }
 

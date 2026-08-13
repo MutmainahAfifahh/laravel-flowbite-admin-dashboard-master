@@ -23,6 +23,10 @@ class LogModelActivity
     public function handle(ModelActivity $event): void
     {
         try {
+            if (app()->runningInConsole()) {
+                return;
+            }
+
             $userName = $event->user ? ($event->user->name ?? 'User') : 'Guest';
             $activity = [
                 'user_id' => $userName,

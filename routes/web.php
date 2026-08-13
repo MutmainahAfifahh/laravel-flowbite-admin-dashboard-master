@@ -1,6 +1,12 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+use App\Models\Product;
+use App\Models\StockTransaction;
+use App\Services\User\UserService;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
@@ -10,13 +16,16 @@ use App\Http\Controllers\ProductAttributeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\ReportController;
-use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
 */
+
+// =========================================================================
+// 1. PUBLIC & AUTHENTICATION (GUEST)
+// =========================================================================
 
 Route::get('/', function () {
     return redirect()->route('login');
@@ -27,9 +36,9 @@ Route::middleware(['guest'])->group(function () {
         return view('authentication.sign-in');
     })->name('login');
 
-    Route::post('/login', function (\Illuminate\Http\Request $request) {
+    Route::post('/login', function (Request $request) {
         $credentials = $request->validate([
-            'email' => 'required|email',
+            'email'    => 'required|email',
             'password' => 'required|string',
         ]);
 
@@ -39,11 +48,9 @@ Route::middleware(['guest'])->group(function () {
             $role = str_replace(' ', '_', strtolower(trim(Auth::user()->role ?? '')));
 
             if ($role === 'admin') {
-                return redirect('/categories');
-            } elseif ($role === 'manajer_gudang') {
-                return redirect('/products');
-            } elseif ($role === 'staff_gudang') {
-                return redirect('/transactions');
+                return redirect()->route('admin.index');
+            } elseif (in_array($role, ['manajer_gudang', 'manajer', 'manager', 'staff_gudang', 'staff'])) {
+                return redirect('/dashboard');
             }
 
             return redirect('/dashboard');
@@ -55,7 +62,10 @@ Route::middleware(['guest'])->group(function () {
     });
 });
 
-// 2. Route Practice Template Bawaan
+// =========================================================================
+// 2. ROUTE PRACTICE (TEMPLATE/DEV)
+// =========================================================================
+
 Route::name('index-practice')->get('/practice', function () {
     return view('pages.practice.index');
 });
@@ -69,91 +79,76 @@ Route::name('practice.')->group(function () {
     });
 });
 
-// 3. Dashboard setelah login
+// =========================================================================
+// 3. DASHBOARDS
+// =========================================================================
+
 Route::get('/dashboard', function () {
-    $totalProducts  = \App\Models\Product::count();
+    $userRole = strtolower(trim(Auth::user()->role ?? ''));
 
-    // Produk dengan stok rendah: hitung stok efektif per produk
-    $products = \App\Models\Product::withCount([
-        'transactions as stok_masuk' => fn($q) => $q->where('type', 'Masuk')->where('status', '!=', 'Cancelled'),
-        'transactions as stok_keluar' => fn($q) => $q->where('type', 'Keluar')->where('status', '!=', 'Cancelled'),
-    ])->get();
-    $stokRendah = $products->filter(fn($p) => (($p->stok_masuk ?? 0) - ($p->stok_keluar ?? 0)) <= $p->minimum_stock)->count();
-
-    $masuk30  = \App\Models\StockTransaction::where('type', 'Masuk')
-                    ->where('date', '>=', now()->subDays(30))->count();
-    $keluar30 = \App\Models\StockTransaction::where('type', 'Keluar')
-                    ->where('date', '>=', now()->subDays(30))->count();
-
-    // Data grafik: 6 bulan terakhir
-    $chartLabels = [];
-    $chartMasuk  = [];
-    $chartKeluar = [];
-    for ($i = 5; $i >= 0; $i--) {
-        $month = now()->subMonths($i);
-        $chartLabels[] = $month->format('M Y');
-        $chartMasuk[]  = \App\Models\StockTransaction::where('type', 'Masuk')
-                            ->whereYear('date', $month->year)
-                            ->whereMonth('date', $month->month)
-                            ->sum('quantity');
-        $chartKeluar[] = \App\Models\StockTransaction::where('type', 'Keluar')
-                            ->whereYear('date', $month->year)
-                            ->whereMonth('date', $month->month)
-                            ->sum('quantity');
+    // Admin fallback jika mengakses /dashboard
+    if (in_array($userRole, ['admin'])) {
+        return redirect()->route('admin.index');
     }
 
-    $transaksiTerbaru = \App\Models\StockTransaction::with(['product', 'user'])
-                        ->latest('date')->latest('id')->take(5)->get();
+    // ── Dashboard Manajer Gudang ──
+    if (in_array($userRole, ['manajer gudang', 'manajer_gudang', 'manajer'])) {
+        $products = Product::withCount([
+            'transactions as stok_masuk'  => fn($q) => $q->where('type', 'Masuk')->where('status', '!=', 'Cancelled'),
+            'transactions as stok_keluar' => fn($q) => $q->where('type', 'Keluar')->where('status', '!=', 'Cancelled'),
+        ])->get();
 
-    return view('dashboard', compact(
-        'totalProducts', 'stokRendah', 'masuk30', 'keluar30',
-        'chartLabels', 'chartMasuk', 'chartKeluar', 'transaksiTerbaru'
-    ));
+        $lowStock = $products->filter(fn($p) => (($p->stok_masuk ?? 0) - ($p->stok_keluar ?? 0)) <= $p->minimum_stock)->count();
+
+        // Ditampilkan berdasarkan 1 bulan terakhir (30 hari terakhir)
+        $incomingTransaction = StockTransaction::where('type', 'Masuk')
+            ->whereDate('created_at', '>=', now()->subDays(30))
+            ->count();
+            
+        $outgoingTransaction = StockTransaction::where('type', 'Keluar')
+            ->whereDate('created_at', '>=', now()->subDays(30))
+            ->count();
+            
+        $activities = app(UserService::class)->getAllUserActivities();
+
+        return view('roles.Manajer-Gudang.index', compact('lowStock', 'incomingTransaction', 'outgoingTransaction', 'activities'))
+            ->with('title', 'Dashboard Manajer Gudang');
+    }
+
+    // ── Dashboard Staff Gudang ──
+    if (in_array($userRole, ['staff gudang', 'staff_gudang', 'staff'])) {
+        // Disamakan: Ditampilkan berdasarkan 1 bulan terakhir (30 hari terakhir)
+        $incomingTransaction = StockTransaction::where('type', 'Masuk')
+            ->whereDate('created_at', '>=', now()->subDays(30))
+            ->count();
+            
+        $outgoingTransaction = StockTransaction::where('type', 'Keluar')
+            ->whereDate('created_at', '>=', now()->subDays(30))
+            ->count();
+
+        return view('roles.Staff.index', [
+            'title'        => 'Dashboard Staff Gudang',
+            'incomingItem' => $incomingTransaction,
+            'outgoingItem' => $outgoingTransaction,
+        ]);
+    }
+
+    return redirect()->route('admin.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/admin/dashboard', [DashboardController::class, 'index'])
+    ->middleware(['auth', 'verified', 'role:admin'])
+    ->name('admin.index');
 
-// 3. Modul Stockify yang Dilindungi Login & RoleMiddleware
+// =========================================================================
+// 4. MODUL APLIKASI (PERLU AUTHENTICATION)
+// =========================================================================
+
 Route::middleware(['auth'])->group(function () {
 
-    // Profile bawaan Breeze
+    // --- Profile & Session ---
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-
-    // Route Khusus Admin & Manajer (Didefinisikan SEBELUM Route::resource agar tidak tertimpa wildcard {id})
-    Route::middleware(['role:admin,manajer_gudang,staff_gudang'])->group(function () {
-        Route::resource('users', UserController::class);
-        Route::get('/products/export', [ProductController::class, 'export'])->name('products.export');
-        Route::post('/products/import', [ProductController::class, 'import'])->name('products.import');
-        Route::get('/reports/stock', [ReportController::class, 'stockReport'])->name('reports.stock');
-        Route::get('/reports/transactions', [ReportController::class, 'transactionReport'])->name('reports.transactions');
-        Route::get('/reports/activities', [ReportController::class, 'activityReport'])->name('reports.activities');
-
-        // Stock Opname & Settings Routes
-        Route::get('/stock-opname', [StockTransactionController::class, 'opnameStockView'])->name('stock.opname');
-        Route::post('/stock-opname', [StockTransactionController::class, 'opnameData'])->name('stock.update');
-        Route::post('/stock-minimum', [StockTransactionController::class, 'updateStockMinimum'])->name('stock.update-minimum');
-        
-        Route::get('/settings', [SettingController::class, 'index'])->name('setting.index');
-        Route::post('/settings', [SettingController::class, 'update'])->name('setting.update');
-
-        Route::get('/transactions/inbound', [StockTransactionController::class, 'inboundTransaction'])->name('transactions.inbound');
-        Route::get('/transactions/outbound', [StockTransactionController::class, 'outboundTransaction'])->name('transactions.outbound');
-        Route::get('/transactions/history', [StockTransactionController::class, 'historyTransaction'])->name('transactions.history');
-        Route::get('/stock/confirm-inbound', [StockTransactionController::class, 'confirmInboundView'])->name('stock.confirm-inbound');
-        Route::get('/stock/confirm-outbound', [StockTransactionController::class, 'confirmOutboundView'])->name('stock.confirm-outbound');
-        Route::get('/stock/minimum', [StockTransactionController::class, 'minimumStockView'])->name('stock.minimum');
-        Route::post('/stock-status/{id}', [StockTransactionController::class, 'updateConfirmationStatus'])->name('stock.confirm-status');
-    });
-
-    // Modul Utama Inventory & Master Data (Didefinisikan SETELAH rute spesifik)
-    Route::resource('categories', CategoryController::class);
-    Route::resource('suppliers', SupplierController::class);
-    Route::resource('products', ProductController::class);
-    Route::resource('transactions', StockTransactionController::class);
-    Route::resource('stock-transactions', StockTransactionController::class);
-    Route::resource('attributes', ProductAttributeController::class);
-    Route::resource('product-attributes', ProductAttributeController::class);
 
     Route::match(['get', 'post'], '/logout', function () {
         Auth::logout();
@@ -161,5 +156,65 @@ Route::middleware(['auth'])->group(function () {
         request()->session()->regenerateToken();
         return redirect('/login');
     })->name('logout');
+
+    // ---------------------------------------------------------------------
+    // A. KHUSUS ADMIN
+    // ---------------------------------------------------------------------
+    Route::middleware(['role:admin'])->group(function () {
+        Route::resource('users', UserController::class);
+        
+        Route::get('/settings', [SettingController::class, 'index'])->name('setting.index');
+        Route::post('/settings', [SettingController::class, 'update'])->name('setting.update');
+        
+        Route::get('/reports/activities', [ReportController::class, 'activityReport'])->name('reports.activities');
+    });
+
+    // ---------------------------------------------------------------------
+    // B. MANAJEMEN STOK & LAPORAN (ADMIN, MANAJER, & STAFF)
+    // ---------------------------------------------------------------------
+    Route::middleware(['role:admin,manajer_gudang,staff_gudang'])->group(function () {
+        // Import / Export Produk
+        Route::get('/products/export', [ProductController::class, 'export'])->name('products.export');
+        Route::post('/products/import', [ProductController::class, 'import'])->name('products.import');
+
+        // Laporan Stok & Transaksi
+        Route::get('/reports/stock', [ReportController::class, 'stockReport'])->name('reports.stock');
+        Route::get('/reports/transactions', [ReportController::class, 'transactionReport'])->name('reports.transactions');
+
+       // Route Simpan, Edit/Update, dan Hapus
+Route::post('/stock/store', [StockTransactionController::class, 'store'])->name('stock.store');
+Route::put('/stock/update/{id}', [StockTransactionController::class, 'update'])->name('stock.update');
+Route::delete('/stock/destroy/{id}', [StockTransactionController::class, 'destroy'])->name('stock.destroy');
+
+        // Stock Opname
+        Route::get('/stock-opname', [StockTransactionController::class, 'opnameStockView'])->name('stock.opname');
+        Route::post('/stock-opname', [StockTransactionController::class, 'opnameData'])->name('stock.update');
+        Route::get('/opname', [StockTransactionController::class, 'opnameStockManagerView'])->name('opname');
+        Route::post('/opname', [StockTransactionController::class, 'opnameData'])->name('opname.update');
+
+        // Stok Minimum & Konfirmasi Transaksi
+        Route::post('/stock-minimum', [StockTransactionController::class, 'updateStockMinimum'])->name('stock.update-minimum');
+        Route::get('/stock/minimum', [StockTransactionController::class, 'minimumStockView'])->name('stock.minimum');
+        Route::get('/api/stock/minimum', [StockTransactionController::class, 'getMinimumStockApi'])->name('api.stock.minimum');
+        Route::get('/stock/confirm-inbound', [StockTransactionController::class, 'confirmInboundView'])->name('stock.confirm-inbound');
+        Route::get('/stock/confirm-outbound', [StockTransactionController::class, 'confirmOutboundView'])->name('stock.confirm-outbound');
+        Route::post('/stock-status/{id}', [StockTransactionController::class, 'updateConfirmationStatus'])->name('stock.confirm-status');
+
+        // Detail Transaksi
+        Route::get('/transactions/inbound', [StockTransactionController::class, 'inboundTransaction'])->name('transactions.inbound');
+        Route::get('/transactions/outbound', [StockTransactionController::class, 'outboundTransaction'])->name('transactions.outbound');
+        Route::get('/transactions/history', [StockTransactionController::class, 'historyTransaction'])->name('transactions.history');
+    });
+
+    // ---------------------------------------------------------------------
+    // C. RESOURCE UTAMA (DAPAT DIAKSES PENGGUNA TEROTENTIKASI)
+    // ---------------------------------------------------------------------
+    Route::resource('categories', CategoryController::class);
+    Route::resource('suppliers', SupplierController::class);
+    Route::resource('products', ProductController::class);
+    Route::resource('transactions', StockTransactionController::class);
+    Route::resource('stock-transactions', StockTransactionController::class);
+    Route::resource('attributes', ProductAttributeController::class);
+    Route::resource('product-attributes', ProductAttributeController::class);
 
 });

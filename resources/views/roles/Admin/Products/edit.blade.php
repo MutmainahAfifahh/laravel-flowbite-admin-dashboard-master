@@ -68,13 +68,13 @@
                     <!-- Harga Beli -->
                     <div>
                         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Harga Beli (Rp) <span class="text-red-500">*</span></label>
-                        <input type="number" name="purchase_price" value="{{ old('purchase_price', $product->purchase_price) }}" min="0" max="999999999999" oninput="if (this.value.length > 12) this.value = this.value.slice(0, 12);" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-800 dark:border-gray-600 dark:text-white" required>
+                        <input type="text" name="purchase_price" value="{{ old('purchase_price', number_format($product->purchase_price, 0, ',', '.')) }}" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-800 dark:border-gray-600 dark:text-white" required>
                     </div>
 
                     <!-- Harga Jual -->
                     <div>
                         <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Harga Jual (Rp) <span class="text-red-500">*</span></label>
-                        <input type="number" name="selling_price" value="{{ old('selling_price', $product->selling_price) }}" min="0" max="999999999999" oninput="if (this.value.length > 12) this.value = this.value.slice(0, 12);" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-800 dark:border-gray-600 dark:text-white" required>
+                        <input type="text" name="selling_price" value="{{ old('selling_price', number_format($product->selling_price, 0, ',', '.')) }}" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/\B(?=(\d{3})+(?!\d))/g, '.');" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-800 dark:border-gray-600 dark:text-white" required>
                     </div>
 
                     <!-- Stok Minimum -->

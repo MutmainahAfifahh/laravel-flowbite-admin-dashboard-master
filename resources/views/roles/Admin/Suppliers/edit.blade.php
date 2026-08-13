@@ -21,23 +21,23 @@
                 @method('PUT')
 
                 <div>
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama Supplier</label>
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama Supplier <span class="text-red-500">*</span></label>
                     <input type="text" name="name" value="{{ old('name', $supplier->name) }}" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
                 </div>
 
                 <div>
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
-                    <input type="email" name="email" value="{{ old('email', $supplier->email) }}" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email <span class="text-red-500">*</span></label>
+                    <input type="email" name="email" value="{{ old('email', $supplier->email) }}" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
                 </div>
 
                 <div>
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Telepon</label>
-                    <input type="text" name="phone" value="{{ old('phone', $supplier->phone) }}" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white">
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Telepon <span class="text-red-500">*</span></label>
+                    <input type="text" name="phone" value="{{ old('phone', $supplier->phone) }}" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
                 </div>
 
                 <div>
-                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat</label>
-                    <textarea name="address" rows="3" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Alamat lengkap supplier...">{{ old('address', $supplier->address) }}</textarea>
+                    <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat <span class="text-red-500">*</span></label>
+                    <textarea name="address" rows="3" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Alamat lengkap supplier..." required>{{ old('address', $supplier->address) }}</textarea>
                 </div>
 
                 <div class="flex items-center space-x-3 pt-2">

@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/categories';
+    public const HOME = '/dashboard';
 
     /**
      * Redirect dinamis berdasarkan role user saat login.

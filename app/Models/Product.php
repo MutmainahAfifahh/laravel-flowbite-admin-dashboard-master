@@ -11,7 +11,7 @@ use Illuminate\Support\Str;
 
 class Product extends Model
 {
-    use HasFactory;
+    use HasFactory, \App\Traits\LogsActivity;
 
     protected $table = 'products';
 
@@ -33,7 +33,26 @@ class Product extends Model
      */
     protected $appends = [
         'image_url',
+        'stock',
     ];
+
+    /**
+     * Accessor untuk menghitung stok aktual berdasarkan riwayat transaksi yang disetujui
+     */
+    public function getStockAttribute(): int
+    {
+        $masuk = $this->transactions()
+            ->where('type', 'Masuk')
+            ->whereIn('status', ['Completed', 'Diterima'])
+            ->sum('quantity');
+
+        $keluar = $this->transactions()
+            ->where('type', 'Keluar')
+            ->whereIn('status', ['Completed', 'Dikeluarkan'])
+            ->sum('quantity');
+
+        return $masuk - $keluar;
+    }
 
     /**
      * Accessor untuk menghasilkan URL lengkap gambar produk

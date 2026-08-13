@@ -4,7 +4,7 @@
     @include('example.layouts.partials.navbar-dashboard')
     <div class="flex pt-16 overflow-hidden bg-gray-50">
 
-      @include('example.layouts.partials.sidebar')
+      @include('roles.' . \Illuminate\Support\Str::slug(auth()->user()->role) . '.sidebar')
 
       <div id="main-content" class="relative w-full h-full overflow-y-auto bg-gray-50 lg:ml-64">
         <main>

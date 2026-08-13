@@ -32,15 +32,15 @@
                 @csrf
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama Lengkap</label>
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama Lengkap <span class="text-red-500">*</span></label>
                         <input type="text" name="name" value="{{ old('name') }}" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Contoh: Ahmad Fauzi" required>
                     </div>
                     <div>
-                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat Email</label>
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat Email <span class="text-red-500">*</span></label>
                         <input type="email" name="email" value="{{ old('email') }}" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="user@stockify.com" required>
                     </div>
                     <div>
-                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Role / Hak Akses</label>
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Role / Hak Akses <span class="text-red-500">*</span></label>
                         <select name="role" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" required>
                             <option value="">-- Pilih Role --</option>
                             <option value="Admin" {{ old('role') === 'Admin' ? 'selected' : '' }}>Admin</option>
@@ -49,7 +49,7 @@
                         </select>
                     </div>
                     <div>
-                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password <span class="text-red-500">*</span></label>
                         <input type="password" name="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Minimal 8 karakter" required>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                             <td class="px-6 py-4">{{ $user->email }}</td>
                             <td class="px-6 py-4">
                                 @if($user->role === 'Admin')
-                                    <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-black-300">Admin</span>
+                                    <span class="bg-purple-100 text-white-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-purple-900 dark:text-black-300">Admin</span>
                                 @elseif($user->role === 'Manajer Gudang')
                                     <span class="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">Manajer Gudang</span>
                                 @else

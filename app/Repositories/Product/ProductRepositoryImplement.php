@@ -35,10 +35,6 @@ class ProductRepositoryImplement extends Eloquent implements ProductRepository{
     }
 
     public function create($data) {
-        if (empty($data['sku'])) {
-            $data['sku'] = 'PRD-' . strtoupper(\Illuminate\Support\Str::random(8));
-        }
-
         $product = $this->model->create($data);
 
         try {

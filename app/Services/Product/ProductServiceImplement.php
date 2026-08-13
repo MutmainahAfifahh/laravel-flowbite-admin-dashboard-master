@@ -45,10 +45,6 @@ class ProductServiceImplement extends Service implements ProductService
 
     public function createProduct($data)
     {
-        if (empty($data['sku'])) {
-            $data['sku'] = 'PRD-' . strtoupper(substr(md5(time()), 0, 6));
-        }
-
         return $this->mainRepository->create($data);
     }
 
